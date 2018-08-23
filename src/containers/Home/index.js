@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import './Home.css';
+import '../../assets/bootstrap/css/bootstrap.min.css';
 
 const mobileWidth = 500;
 
@@ -23,8 +24,7 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <Navbar isMobile={this.state.isMobile}></Navbar>
-                Home!
+                <Navbar />
             </div>
         );
     }
