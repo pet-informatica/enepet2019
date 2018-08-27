@@ -25,7 +25,7 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <Navbar fixedTop={true}/>
+                <Navbar />
                 <div className="Body">
                     <Countdown />
                 </div>
