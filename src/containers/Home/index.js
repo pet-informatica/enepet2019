@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Countdown from './Countdown';
+import About from './About';
+import Carousel from './Carousel';
+import Event from './Event';
+import Contact from './Contact';
+import Commissions from './Commissions';
+import Schedule from './Schedule';
+import Footer from './Footer';
 import './Home.css';
 import '../../assets/bootstrap/css/bootstrap.min.css';
 
@@ -28,6 +35,13 @@ class Home extends Component {
                 <Navbar />
                 <div className="Body">
                     <Countdown />
+                    <About />
+                    <Carousel />
+                    <Event />
+                    <Schedule />
+                    <Commissions />
+                    <Contact />
+                    <Footer />
                 </div>
             </div>
         );

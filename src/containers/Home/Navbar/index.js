@@ -8,7 +8,7 @@ class CustomNavbar extends Component {
             <Navbar fixedTop={true} collapseOnSelect id="navbar">
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#brand">React-Bootstrap</a>
+                        <a href="#brand">PET PE 2018</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
