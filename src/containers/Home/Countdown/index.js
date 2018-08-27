@@ -48,9 +48,24 @@ class Countdown extends Component {
         return (
             <div className="Countdown">
                 <div className="Countdown-timer">
-                    Faltam
-                    <div className="Countdown-timer-number">
-                        {days}:{addZero(hours)}:{addZero(minutes)}:{addZero(seconds)}
+                    <h1 className="Countdown-title">Faltam</h1>
+                    <div className="Countdown-time">
+                        <div className="Countdown-time-number">
+                            <h3>{days}</h3>
+                            <h5>dias</h5>
+                        </div>
+                        <div className="Countdown-time-number">
+                            <h3>{addZero(hours)}</h3>
+                            <h5>horas</h5>
+                        </div>
+                        <div className="Countdown-time-number">
+                            <h3>{addZero(minutes)}</h3>
+                            <h5>minutos</h5>
+                        </div>
+                        <div className="Countdown-time-number">
+                            <h3>{addZero(seconds)}</h3>
+                            <h5>segundos</h5>
+                        </div>
                     </div>
                 </div>
                 <div className="Countdown-signup">

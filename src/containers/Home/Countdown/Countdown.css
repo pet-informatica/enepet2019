@@ -13,8 +13,31 @@
 .Countdown-timer {
     width: 100%;
     max-width: 800px;
-    border: thin solid black;
     margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: thin solid black;
+}
+
+.Countdown-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border: thin solid black;
+}
+
+.Countdown-time-number {
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Countdown-signup {
