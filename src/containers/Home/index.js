@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
+import Countdown from './Countdown';
 import './Home.css';
 import '../../assets/bootstrap/css/bootstrap.min.css';
 
@@ -24,7 +25,10 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <Navbar />
+                <Navbar fixedTop={true}/>
+                <div className="Body">
+                    <Countdown />
+                </div>
             </div>
         );
     }
