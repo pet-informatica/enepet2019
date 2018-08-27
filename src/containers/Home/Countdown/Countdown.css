@@ -9,3 +9,15 @@
 
     border: thin solid black;
 }
+
+.Countdown-timer {
+    width: 100%;
+    max-width: 800px;
+    border: thin solid black;
+    margin-bottom: 30px;
+}
+
+.Countdown-signup {
+    width: 200px;
+    height: 50px;
+}
