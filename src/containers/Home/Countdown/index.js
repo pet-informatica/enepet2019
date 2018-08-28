@@ -67,9 +67,9 @@ class Countdown extends Component {
                             <h5>segundos</h5>
                         </div>
                     </div>
-                </div>
-                <div className="Countdown-signup">
-                    <Button name={"Inscreva-se!"} />
+                    <div className="Countdown-signup">
+                        <Button name={"Inscreva-se!"} />
+                    </div>
                 </div>
             </div>
         );
