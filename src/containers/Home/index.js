@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Countdown from './Countdown';
 import About from './About';
-import Carousel from './Carousel';
+import Recife from './Recife';
 import Event from './Event';
 import Contact from './Contact';
 import Commissions from './Commissions';
@@ -36,7 +36,7 @@ class Home extends Component {
                 <div className="Body">
                     <Countdown />
                     <About />
-                    <Carousel />
+                    <Recife />
                     <Event />
                     <Schedule />
                     <Commissions />
