@@ -1,36 +1,48 @@
 import React, { Component } from 'react';
-import { Carousel } from 'react-bootstrap';
+import Card from '../../../components/Card';
+import thumbnail from '../../../assets/imgs/thumbnail.svg';
 import './Recife.css';
-import carousel from '../../../assets/imgs/carousel.png';
 
 class Recife extends Component {
 
     render() {
         return (
             <div className="Recife">
-                <Carousel>
-                    <Carousel.Item>
-                        <img width={1000} height={1000} alt="900x500" src={carousel} />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img width={1000} height={1000} alt="900x500" src={carousel} />
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img width={1000} height={1000} alt="900x500" src={carousel} />
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                <div className="Recife-title">
+                    <h1>Conheça Recife</h1>
+                </div>
+                <div className="Recife-attractions">
+                    <Card
+                        title="Attraction 1"
+                        img={thumbnail}
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
+                    </Card>
+                    <Card
+                        title="Attraction 2"
+                        img={thumbnail}
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
+                    </Card>
+                    <Card
+                        title="Attraction 3"
+                        img={thumbnail}
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
+                    </Card>
+                    <Card
+                        title="Attraction 4"
+                        img={thumbnail}
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputat.">
+                    </Card>
+                    <Card
+                        title="Attraction 5"
+                        img={thumbnail}
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
+                    </Card>
+                    <Card
+                        title="Attraction 6"
+                        img={thumbnail}
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
+                    </Card>
+                </div>
             </div>
         );
     }

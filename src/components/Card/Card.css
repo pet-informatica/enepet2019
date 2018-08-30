@@ -1,0 +1,49 @@
+.Card {
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border: thin solid black;
+}
+
+.Card-image {
+    height: 45%;
+    width: 100%;
+
+    background-position: center;
+    background-size: contain;
+
+    border: thin solid black;
+}
+
+.Card-title {
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: thin solid black;
+}
+
+.Card-description {
+    height: 45%;
+    width: 100%;
+
+    padding: 4px;
+
+    display: flex;
+    align-items: center;
+
+    border: thin solid black;
+}
+
+.Card-title > *, .Card-description > * {
+    margin: 0;
+}
