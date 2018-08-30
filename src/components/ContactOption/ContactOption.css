@@ -1,0 +1,25 @@
+.Contact-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact-img {
+    width: 100px;
+    height: 100px;
+    
+    margin: 10px;
+
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 100%;
+    border: thin solid black;
+}
+
+.Contact-img:hover {
+    cursor: pointer;
+}
