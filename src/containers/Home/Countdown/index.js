@@ -6,6 +6,7 @@ import './Countdown.css';
 const data = new Date(2018, 8, 20, 11);
 
 const addZero = (time => (time < 10 ? `0${time}` : time));
+const checkPlural = ((name, time) => (time === 1 ? name : `${name}s`));
 
 class Countdown extends Component {
 
@@ -52,19 +53,19 @@ class Countdown extends Component {
                     <div className="Countdown-time">
                         <div className="Countdown-time-number">
                             <h3>{days}</h3>
-                            <h5>dias</h5>
+                            <h5>{checkPlural('dia', days)}</h5>
                         </div>
                         <div className="Countdown-time-number">
                             <h3>{addZero(hours)}</h3>
-                            <h5>horas</h5>
+                            <h5>{checkPlural('hora', hours)}</h5>
                         </div>
                         <div className="Countdown-time-number">
                             <h3>{addZero(minutes)}</h3>
-                            <h5>minutos</h5>
+                            <h5>{checkPlural('minuto', minutes)}</h5>
                         </div>
                         <div className="Countdown-time-number">
                             <h3>{addZero(seconds)}</h3>
-                            <h5>segundos</h5>
+                            <h5>{checkPlural('segundo', seconds)}</h5>
                         </div>
                     </div>
                     <div className="Countdown-signup">
