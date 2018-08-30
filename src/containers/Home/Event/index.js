@@ -9,7 +9,7 @@ class Event extends Component {
         return (
             <div className="Event">
                 <div className="Event-title">
-                    <h1>Evento</h1>
+                    <h1 className="Title-heading">Evento</h1>
                 </div>
                 <div className="Event-body">
                     <Card

@@ -9,7 +9,7 @@ class Contact extends Component {
         return (
             <div className="Contact">
                 <div className="Contact-title">
-                    <h1>Contato</h1>
+                    <h1 className="Title-heading">Contato</h1>
                 </div>
                 <div className="Contact-body">
                     <ContactOption link="https://facebook.com" img={thumbnail} title="Facebook"/>

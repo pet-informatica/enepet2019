@@ -9,7 +9,7 @@ class Recife extends Component {
         return (
             <div className="Recife">
                 <div className="Recife-title">
-                    <h1>Conheça Recife</h1>
+                    <h1 className="Title-heading">Conheça Recife</h1>
                 </div>
                 <div className="Recife-attractions">
                     <Card

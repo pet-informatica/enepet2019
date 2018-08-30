@@ -9,7 +9,7 @@ class Commissions extends Component {
         return (
             <div className="Commissions">
                 <div className="Commisions-title">
-                    <h1>Comissões</h1>
+                    <h1 className="Title-heading">Comissões</h1>
                 </div>
                 <div className="Commisions-body">
                     <Card
