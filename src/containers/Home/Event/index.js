@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../../../components/Card';
+import Title from '../../../components/Title';
 import thumbnail from '../../../assets/imgs/thumbnail.svg';
 import './Event.css';
 
@@ -8,9 +9,7 @@ class Event extends Component {
     render() {
         return (
             <div className="Event">
-                <div className="Event-title">
-                    <h1 className="Title-heading">Evento</h1>
-                </div>
+                <Title title="Evento" />
                 <div className="Event-body">
                     <Card
                         title="Attraction 1"
