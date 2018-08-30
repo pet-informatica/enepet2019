@@ -1,11 +1,19 @@
 .Event {
     width: 100%;
-    height: 10vh;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     border: thin solid black;
+}
+
+.Event-body {
+    width: 100%;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

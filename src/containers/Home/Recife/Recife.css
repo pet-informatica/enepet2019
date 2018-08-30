@@ -10,8 +10,8 @@
 }
 
 .Recife-attractions {
-    width: 70%;
-    min-width: 500px;
+    width: 100%;
+    max-width: 1000px;
 
     display: flex;
     flex-direction: row;

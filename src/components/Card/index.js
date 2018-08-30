@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
+import Button from '../Button';
 import './Card.css';
 
 class Card extends Component {
+
+    constructor(props) {
+        super(props);
+        this.handleButton = this.handleButton.bind(this);
+    }
+
+    handleButton() {
+        window.open(this.props.link);
+    }
 
     render() {
         return (
@@ -13,8 +23,13 @@ class Card extends Component {
                 <div className="Card-description">
                     <p>{this.props.description}</p>
                 </div>
+                {this.props.link ? (
+                    <div className="Card-button">
+                        <Button handleClick={this.handleButton} name={this.props.buttonName}></Button>
+                    </div>
+                ) : ""}
             </div>
-        );
+        )
     }
 }
 

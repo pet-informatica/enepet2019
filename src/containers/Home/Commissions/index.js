@@ -6,7 +6,12 @@ class Commissions extends Component {
     render() {
         return (
             <div className="Commissions">
-                Commissions
+                <div className="Commisions-title">
+                    <h1>Comissões</h1>
+                </div>
+                <div className="Commisions-body">
+                    
+                </div>
             </div>
         );
     }

@@ -6,7 +6,6 @@ import Recife from './Recife';
 import Event from './Event';
 import Contact from './Contact';
 import Commissions from './Commissions';
-import Schedule from './Schedule';
 import Footer from './Footer';
 import './Home.css';
 import '../../assets/bootstrap/css/bootstrap.min.css';
@@ -38,7 +37,6 @@ class Home extends Component {
                     <About />
                     <Recife />
                     <Event />
-                    <Schedule />
                     <Commissions />
                     <Contact />
                     <Footer />
