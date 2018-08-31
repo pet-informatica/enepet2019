@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import thumbnail from '../../../assets/imgs/thumbnail.svg';
+import logo from '../../../assets/logos/logo.png';
 import './Footer.css';
 
 class Footer extends Component {
@@ -9,8 +9,7 @@ class Footer extends Component {
             <div className="Footer">
                 <div className="Footer-body">
                     <h5>Copyright</h5>
-                    <div className="Footer-logo" style={{backgroundImage: `url(${thumbnail})`}}>
-                    </div>
+                    <img className="Footer-logo" src={logo}></img>
                 </div>
             </div>
         );

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from '../../../components/Button';
+import logo from '../../../assets/logos/logo.png';
 import './Countdown.css';
 
 /* 20 de setembro de 2018, às 11h */
@@ -48,7 +49,8 @@ class Countdown extends Component {
 
         return (
             <div className="Countdown">
-                <div className="Countdown-timer">
+                <img className="Countdown-header" src={logo}></img>
+                <div className="Countdown-body">
                     <h1 className="Countdown-title">Faltam</h1>
                     <div className="Countdown-time">
                         <div className="Countdown-time-number">

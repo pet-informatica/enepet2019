@@ -27,10 +27,7 @@
 .Footer-logo {
     height: 50px;
     width: 50px;
-    border-radius: 100%;
 
     background-position: center;
-    background-size: cover;
-
-    border: thin solid black;
+    background-size: contain;
 }
