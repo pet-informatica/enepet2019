@@ -9,7 +9,7 @@ class Footer extends Component {
             <div className="Footer">
                 <div className="Footer-body">
                     <h5>Copyright</h5>
-                    <img className="Footer-logo" src={logo}></img>
+                    <img alt="logo" className="Footer-logo" src={logo}></img>
                 </div>
             </div>
         );

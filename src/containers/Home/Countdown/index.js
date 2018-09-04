@@ -49,7 +49,7 @@ class Countdown extends Component {
 
         return (
             <div className="Countdown">
-                <img className="Countdown-header" src={logo}></img>
+                <img alt="logo" className="Countdown-header" src={logo}></img>
                 <div className="Countdown-body">
                     <h1 className="Countdown-title">Faltam</h1>
                     <div className="Countdown-time">

@@ -1,8 +1,9 @@
 .Home {
     width: 100%;
-
 }
 
 .Body {
     margin-top: 50px;
+    font-family: Roboto;
+    font-weight: normal;
 }
