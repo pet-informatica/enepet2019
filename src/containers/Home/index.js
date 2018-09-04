@@ -34,11 +34,17 @@ class Home extends Component {
                 <Navbar />
                 <div className="Body">
                     <Countdown />
-                    <About />
-                    <Recife />
-                    <Event />
-                    <Commissions />
-                    <Contact />
+                    <div className="Body-border">
+                        <div id="Border-left" className="Border"></div>
+                        <div className="Body-content">
+                            <About />
+                            <Recife />
+                            <Event />
+                            <Commissions />
+                            <Contact />
+                        </div>
+                        <div id="Border-right" className="Border"></div>
+                    </div>
                     <Footer />
                 </div>
             </div>

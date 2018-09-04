@@ -1,20 +1,18 @@
 .About {
     width: 100%;
-    padding: 20px;
+    min-height: 50vh;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    border: thin solid black;
 }
 
 .About-title {
+    width: 100%;
     text-align: center;
 }
 
 .About-description {
-    width: 100%;
     max-width: 600px;
 }

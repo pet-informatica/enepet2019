@@ -7,3 +7,31 @@
     font-family: Roboto;
     font-weight: normal;
 }
+
+.Body-border {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.Body-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Border {
+    width: 10%;
+    /* background-image: linear-gradient(to bottom, white, rgba(70, 178, 157, 0.5), rgba(240, 202, 77, 0.5), rgba(119, 42, 70, 0.5)); */
+}
+
+#Border-left {
+    background-image: linear-gradient(to right, rgba(70, 178, 157, 0.3) ,white);
+}
+
+#Border-right {
+    background-image: linear-gradient(to left, rgba(70, 178, 157, 0.3) ,white);
+}
