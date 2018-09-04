@@ -8,7 +8,11 @@
     justify-content: space-around;
     align-items: center;
 
-    border: thin solid black;
+    border-radius: 10px;
+}
+
+.Card:hover {
+    cursor: pointer;
 }
 
 .Card-image {
@@ -18,7 +22,8 @@
     background-position: center;
     background-size: cover;
 
-    border: thin solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .Card-title {
@@ -29,7 +34,9 @@
     justify-content: center;
     align-items: center;
 
-    border: thin solid black;
+    font-family: Peleja;
+
+    border-bottom: thin solid lightgrey;
 }
 
 .Card-description {
@@ -37,11 +44,12 @@
     width: 100%;
 
     padding: 4px;
+    padding-top: 10px;
 
     display: flex;
-    align-items: center;
 
-    border: thin solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .Card-button {
