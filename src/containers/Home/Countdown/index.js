@@ -3,6 +3,8 @@ import Button from '../../../components/Button';
 import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg'
 import './Countdown.css';
 
+const colors = ['rgb(70, 178, 157)', 'rgb(50, 77, 92)', 'rgb(119, 42, 70)'];
+
 /* 20 de setembro de 2018, às 11h */
 const data = new Date(2018, 8, 20, 11);
 
@@ -21,6 +23,8 @@ class Countdown extends Component {
     constructor(props) {
         super(props);
         this.calculateDifference = this.calculateDifference.bind(this);
+
+        this.buttonColor = colors[Math.floor(Math.random() * 3)];
     }
 
     componentDidMount() {
@@ -48,7 +52,7 @@ class Countdown extends Component {
         const { days, hours, minutes, seconds } = this.state;
 
         return (
-            <div className="Countdown" style={{backgroundImage: `url(${rosa})`}}>
+            <div className="Countdown" style={{ backgroundImage: `url(${rosa})` }}>
                 <div className="Countdown-body">
                     <h1 className="Countdown-title">Faltam</h1>
                     <div className="Countdown-time">
@@ -69,7 +73,7 @@ class Countdown extends Component {
                             <h4>{checkPlural('segundo', seconds)}</h4>
                         </div>
                     </div>
-                    <div className="Countdown-signup">
+                    <div className="Countdown-signup" style={{ backgroundColor: this.buttonColor }}>
                         <Button name={"Inscreva-se!"} />
                     </div>
                 </div>
