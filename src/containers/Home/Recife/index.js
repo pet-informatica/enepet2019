@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Card from '../../../components/Card';
 import Title from '../../../components/Title';
 import thumbnail from '../../../assets/imgs/thumbnail.svg';
+import facebook from '../../../assets/imgs/facebook-logo.png';
+import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg';
 import './Recife.css';
 
 class Recife extends Component {
@@ -13,14 +15,14 @@ class Recife extends Component {
                 <div className="Recife-attractions">
                     <Card
                         title="Attraction 1"
-                        img={thumbnail}
+                        img={facebook}
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
                         color='green'
                     >
                     </Card>
                     <Card
                         title="Attraction 2"
-                        img={thumbnail}
+                        img={rosa}
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
                         color='blue'
                     >
