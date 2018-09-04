@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from '../../../components/Button';
-import logo from '../../../assets/logos/logo.png';
+import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg'
 import './Countdown.css';
 
 /* 20 de setembro de 2018, às 11h */
@@ -48,26 +48,25 @@ class Countdown extends Component {
         const { days, hours, minutes, seconds } = this.state;
 
         return (
-            <div className="Countdown">
-                <img alt="logo" className="Countdown-header" src={logo}></img>
+            <div className="Countdown" style={{backgroundImage: `url(${rosa})`}}>
                 <div className="Countdown-body">
                     <h1 className="Countdown-title">Faltam</h1>
                     <div className="Countdown-time">
-                        <div className="Countdown-time-number">
+                        <div className="Countdown-time-number" id="days">
                             <h3>{days}</h3>
-                            <h5>{checkPlural('dia', days)}</h5>
+                            <h4>{checkPlural('dia', days)}</h4>
                         </div>
-                        <div className="Countdown-time-number">
+                        <div className="Countdown-time-number" id="hours">
                             <h3>{addZero(hours)}</h3>
-                            <h5>{checkPlural('hora', hours)}</h5>
+                            <h4>{checkPlural('hora', hours)}</h4>
                         </div>
-                        <div className="Countdown-time-number">
+                        <div className="Countdown-time-number" id="minutes">
                             <h3>{addZero(minutes)}</h3>
-                            <h5>{checkPlural('minuto', minutes)}</h5>
+                            <h4>{checkPlural('minuto', minutes)}</h4>
                         </div>
-                        <div className="Countdown-time-number">
+                        <div className="Countdown-time-number" id="seconds">
                             <h3>{addZero(seconds)}</h3>
-                            <h5>{checkPlural('segundo', seconds)}</h5>
+                            <h4>{checkPlural('segundo', seconds)}</h4>
                         </div>
                     </div>
                     <div className="Countdown-signup">

@@ -5,10 +5,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border: thin solid black;
 }
 
 .Button:hover {
     cursor: pointer;
+    font-weight: bold;
 }

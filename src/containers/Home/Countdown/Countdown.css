@@ -1,6 +1,6 @@
 .Countdown {
     width: 100%;
-    min-height: 70vh;
+    height: 80vh;
 
     display: flex;
     flex-direction: row;
@@ -8,31 +8,23 @@
     align-items: center;
     flex-wrap: wrap;
 
-    border: thin solid black;
-}
-
-.Countdown-timer {
-    width: 90%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-    border: thin solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Countdown-title {
     font-family: Peleja;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+    color: white;
 }
 
 .Countdown-header {
     width: 50%;
     max-width: 500px;
+
+    margin-top: 20px;
 
     display: flex;
     justify-content: center;
@@ -41,20 +33,21 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-
-    border: thin solid black;
 }
 
 .Countdown-body {
     width: 100%;
-    max-width: 600px;
+    height: 70%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
-    border: thin solid black;
+    background-color: rgba(0,0,0,0.8);
 }
 
 .Countdown-body > * {
@@ -63,17 +56,17 @@
 
 .Countdown-time {
     width: 100%;
-    max-width: 500px;
+    max-width: 900px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    border: thin solid black;
+    justify-content: space-around;
 }
 
 .Countdown-time-number {
     width: 25%;
+    max-width: 200px; 
     height: 100%;
 
     display: flex;
@@ -81,16 +74,47 @@
     justify-content: center;
     align-items: center;
 
+    color: black;
     font-family: Peleja;
 
-    border: thin solid black;
+    border-radius: 10px;
+}
+
+.Countdown-time-number:hover {
+    opacity: 0.8;
 }
 
 .Countdown-time-number > h3 {
-    font-size: 35px;
+    font-size: 9vh;
+}
+
+.Countdown-time-number > h4 {
+    font-size: 2.5vh;
 }
 
 .Countdown-signup {
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 60px;
+
+    background-color:  rgb(119, 42, 70);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}
+
+#days {
+    background-color: rgba(70, 178, 157, 0.8);
+}
+
+#hours {
+    background-color: rgb(50, 77, 92, 0.8);
+}
+
+#minutes {
+    background-color: rgba(240, 202, 77, 0.8);
+}
+
+#seconds {
+    background-color: rgba(119, 42, 70, 0.8);
 }
