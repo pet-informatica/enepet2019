@@ -1,6 +1,6 @@
 .Countdown {
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
 
     display: flex;
     flex-direction: row;
@@ -16,6 +16,13 @@
 .Countdown-title {
     font-family: Peleja;
     font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.Countdown-subtitle {
+    font-family: Roboto-thin;
+    font-size: 27px;
     text-align: center;
     color: white;
 }

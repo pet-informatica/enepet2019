@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 import Button from '../../../components/Button';
 import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg'
 import './Countdown.css';
@@ -51,27 +52,42 @@ class Countdown extends Component {
     render() {
         const { days, hours, minutes, seconds } = this.state;
 
+        const tooltip = (
+            <Tooltip id="tooltip">
+                <strong>Save the date!</strong> {data.toDateString()}.
+            </Tooltip>
+        )
+
         return (
             <div className="Countdown" style={{ backgroundImage: `url(${rosa})` }}>
                 <div className="Countdown-body">
-                    <h1 className="Countdown-title">Faltam</h1>
+                    <h1 className="Countdown-title">Save the date!</h1>
+                    <h3 className="Countdown-subtitle">{data.toDateString()}</h3>
                     <div className="Countdown-time">
-                        <div className="Countdown-time-number" id="days">
-                            <h3>{days}</h3>
-                            <h4>{checkPlural('dia', days)}</h4>
-                        </div>
+                        <OverlayTrigger placement="top" overlay={tooltip}>
+                            <div className="Countdown-time-number" id="days">
+                                <h3>{days}</h3>
+                                <h4>{checkPlural('dia', days)}</h4>
+                            </div>
+                        </OverlayTrigger>
+                        <OverlayTrigger placement="top" overlay={tooltip}>
                         <div className="Countdown-time-number" id="hours">
                             <h3>{addZero(hours)}</h3>
                             <h4>{checkPlural('hora', hours)}</h4>
                         </div>
+                        </OverlayTrigger>
+                        <OverlayTrigger placement="top" overlay={tooltip}>
                         <div className="Countdown-time-number" id="minutes">
                             <h3>{addZero(minutes)}</h3>
                             <h4>{checkPlural('minuto', minutes)}</h4>
                         </div>
+                        </OverlayTrigger>
+                        <OverlayTrigger placement="top" overlay={tooltip}>
                         <div className="Countdown-time-number" id="seconds">
                             <h3>{addZero(seconds)}</h3>
                             <h4>{checkPlural('segundo', seconds)}</h4>
                         </div>
+                        </OverlayTrigger>
                     </div>
                     <div className="Countdown-signup" style={{ backgroundColor: this.buttonColor }}>
                         <Button name={"Inscreva-se!"} />

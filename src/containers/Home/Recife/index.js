@@ -3,6 +3,7 @@ import Card from '../../../components/Card';
 import Title from '../../../components/Title';
 import thumbnail from '../../../assets/imgs/thumbnail.svg';
 import facebook from '../../../assets/imgs/facebook-logo.png';
+import google from '../../../assets/imgs/google.png';
 import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg';
 import './Recife.css';
 
@@ -31,10 +32,11 @@ class Recife extends Component {
                     </Card>
                     <Card
                         title="Link"
-                        img={thumbnail}
+                        img={google}
                         description="Exemplo de link. Passe a prop 'link' com o valor do link que você deseje que este card leve."
                         color='red'
-                        link='google.com'
+                        size='contain'
+                        link='https://google.com'
                     >
                     </Card>
                     <Card

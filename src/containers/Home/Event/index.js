@@ -39,11 +39,6 @@ class Event extends Component {
                         img={thumbnail}
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
                     </Card>
-                    <Card
-                        title="Attraction 6"
-                        img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
-                    </Card>
                 </div>
             </div>
         );
