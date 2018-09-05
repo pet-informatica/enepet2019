@@ -10,7 +10,7 @@ import Footer from './Footer';
 import './Home.css';
 import '../../assets/bootstrap/css/bootstrap.min.css';
 
-const mobileWidth = 500;
+const mobileWidth = 1080;
 
 class Home extends Component {
 
@@ -37,7 +37,7 @@ class Home extends Component {
                     <div className="Body-border">
                         <div id="Border-left" className="Border"></div>
                         <div className="Body-content">
-                            <About />
+                            <About isMobile={this.state.isMobile}/>
                             <Recife />
                             <Event />
                             <Commissions />

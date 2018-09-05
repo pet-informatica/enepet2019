@@ -14,6 +14,25 @@
 }
 
 .About-description {
-    max-width: 600px;
+    width: 100%;
     padding: 3px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.About-description > * {
+    margin: 10px;
+}
+
+.About-logo {
+    width: 200px;
+}
+
+.About-text {
+    width: 100%;
+    max-width: 600px;
 }
