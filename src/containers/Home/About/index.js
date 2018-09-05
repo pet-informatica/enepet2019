@@ -24,7 +24,7 @@ class About extends Component {
                         }}
                     >
                     </div>
-                    <img src={logo} className="About-logo"></img>
+                    <img alt="logo" src={logo} className="About-logo"></img>
                 </div>
             </div>
         );
