@@ -1,6 +1,6 @@
-# petpe2018
+# PET PE 2018
 
-# Installation and running
+## Installation and running
 
 You need to have Node.js and NPM installed in order to run this project.
 
