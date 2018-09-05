@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Title from '../../../components/Title';
 import ContactOption from '../../../components/ContactOption';
-import thumbnail from '../../../assets/imgs/thumbnail.svg';
+import facebook from '../../../assets/imgs/facebook-logo.png';
+import twitter from '../../../assets/imgs/twitter.png';
+import mail from '../../../assets/imgs/mail.png';
 import './Contact.css';
 
 class Contact extends Component {
@@ -11,10 +13,9 @@ class Contact extends Component {
             <div className="Contact">
                 <Title title="Contato" />
                 <div className="Contact-body">
-                    <ContactOption link="https://facebook.com" img={thumbnail} title="Facebook"/>
-                    <ContactOption link="https://facebook.com" img={thumbnail} title="Facebook"/>
-                    <ContactOption link="https://facebook.com" img={thumbnail} title="Facebook"/>
-                    <ContactOption link="https://facebook.com" img={thumbnail} title="Facebook"/>
+                    <ContactOption link="https://facebook.com" img={facebook} title="Facebook"/>
+                    <ContactOption link="https://twitter.com" img={twitter} title="Twitter"/>
+                    <ContactOption link="mailto:test@email.com" img={mail} title="Email"/>
                 </div>
             </div>
         );

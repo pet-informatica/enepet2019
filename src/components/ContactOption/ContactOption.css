@@ -11,13 +11,13 @@
     margin: 10px;
 
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
 
     border-radius: 100%;
-    border: thin solid black;
 }
 
 .Contact-img:hover {
