@@ -6,10 +6,11 @@ import './Countdown.css';
 
 const colors = ['rgb(70, 178, 157)', 'rgb(50, 77, 92)', 'rgb(119, 42, 70)'];
 
-/* 20 de setembro de 2018, às 11h */
-const data = new Date(2018, 8, 20, 11);
+/* 16 de novembro de 2018, às 11h */
+const data = new Date(2018, 10, 16, 11);
+const dataString = "16 de novembro | 11:00"
 
-const addZero = (time => (time < 10 ? `0${time}` : time));
+const addZero = (time => (time < 10 ? `${time}` : time));
 const checkPlural = ((name, time) => (time === 1 ? name : `${name}s`));
 
 class Countdown extends Component {
@@ -54,7 +55,7 @@ class Countdown extends Component {
 
         const tooltip = (
             <Tooltip id="tooltip">
-                <strong>Save the date!</strong> {data.toDateString()}.
+                <strong>Save the date!</strong> {dataString}.
             </Tooltip>
         )
 
@@ -62,7 +63,7 @@ class Countdown extends Component {
             <div className="Countdown" style={{ backgroundImage: `url(${rosa})` }}>
                 <div className="Countdown-body">
                     <h1 className="Countdown-title">Save the date!</h1>
-                    <h3 className="Countdown-subtitle">{data.toDateString()}</h3>
+                    <h3 className="Countdown-subtitle">{dataString}</h3>
                     <div className="Countdown-time">
                         <OverlayTrigger placement="top" overlay={tooltip}>
                             <div className="Countdown-time-number" id="days">
