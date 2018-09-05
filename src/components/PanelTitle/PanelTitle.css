@@ -7,6 +7,10 @@
     justify-content: space-between;
 
     padding: 10px;
+    border-radius: 3px;
+    border: 0;
+
+    color: black;
 }
 
 .Panel-description {
