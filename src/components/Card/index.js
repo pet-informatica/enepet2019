@@ -25,7 +25,14 @@ class Card extends Component {
     render() {
         return (
             <div className="Card" onClick={this.handleClick}>
-                <div className="Card-image" style={{ backgroundImage: `url(${this.props.img})` }}></div>
+                <div
+                    className="Card-image"
+                    style={{ 
+                        backgroundImage: `url(${this.props.img})`,
+                        backgroundSize: (this.props.size ? this.props.size : 'cover') 
+                    }}
+                >
+                </div>
                 <div className="Card-title" style={{ color: this.colors[this.props.color] }}>
                     <h4> {this.props.title} </h4>
                 </div>

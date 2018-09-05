@@ -18,6 +18,7 @@ class Recife extends Component {
                         img={facebook}
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
                         color='green'
+                        size='contain'
                     >
                     </Card>
                     <Card
@@ -25,6 +26,7 @@ class Recife extends Component {
                         img={rosa}
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
                         color='blue'
+                        size='cover'
                     >
                     </Card>
                     <Card
