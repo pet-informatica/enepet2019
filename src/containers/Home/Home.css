@@ -24,9 +24,9 @@
 }
 
 .Border {
-    width: 8%;
+    width: 10px;
     max-width: 90px;
-    background-image: linear-gradient(to bottom, white, rgba(70, 178, 157, 0.5), white, rgba(240, 202, 77, 0.5), white, rgba(119, 42, 70, 1));
+    background-image: linear-gradient(to bottom, white, rgba(70, 178, 157, 0.5), white, rgba(119, 42, 70, 1));
 }
 
 /* #Border-left {
