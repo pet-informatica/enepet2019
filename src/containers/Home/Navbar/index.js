@@ -24,7 +24,7 @@ class CustomNavbar extends Component {
                         <NavItem id="links" eventKey={2} href="#event">
                             Evento
                         </NavItem>
-                        <NavItem id="links" eventKey={2} href="#comissions">
+                        <NavItem id="links" eventKey={2} href="#commissions">
                             Comissões
                         </NavItem>
                         <NavItem id="links" eventKey={2} href="#contact">
