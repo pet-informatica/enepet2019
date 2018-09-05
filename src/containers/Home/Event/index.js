@@ -8,7 +8,7 @@ class Event extends Component {
 
     render() {
         return (
-            <div className="Event">
+            <div className="Event" id="event">
                 <Title title="Evento" />
                 <div className="Event-body">
                     <Card

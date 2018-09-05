@@ -10,7 +10,7 @@ class Recife extends Component {
 
     render() {
         return (
-            <div className="Recife">
+            <div className="Recife" id="recife">
                 <Title title="Conheça Recife" />
                 <div className="Recife-attractions">
                     <Card

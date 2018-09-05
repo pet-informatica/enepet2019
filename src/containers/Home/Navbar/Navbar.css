@@ -1,0 +1,25 @@
+#navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 0;
+
+    top: 0 !important;
+    position: fixed !important;
+}
+
+#brand {
+    font-family: Peleja;
+    color: white;
+}
+
+#links {
+    color: white;
+    font-family: Roboto;
+}
+
+#links:hover {
+    font-weight: bold;
+}
+
+.navbar-toggle {
+    border: 0 !important;
+}

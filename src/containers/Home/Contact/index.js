@@ -10,7 +10,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className="Contact">
+            <div className="Contact" id="contact">
                 <Title title="Contato" />
                 <div className="Contact-body">
                     <ContactOption link="https://facebook.com" img={facebook} title="Facebook"/>

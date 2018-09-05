@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import './Navbar.css';
 
 class CustomNavbar extends Component {
 
@@ -8,33 +9,27 @@ class CustomNavbar extends Component {
             <Navbar fixedTop={true} collapseOnSelect id="navbar">
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#brand">PET PE 2018</a>
+                        <a id="brand" href="#">PET PE 2018</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
-                    <Nav>
-                        <NavItem eventKey={1} href="#">
-                            Link
-                        </NavItem>
-                        <NavItem eventKey={2} href="#">
-                            Link
-                        </NavItem>
-                        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                            <MenuItem eventKey={3.1}>Action</MenuItem>
-                            <MenuItem eventKey={3.2}>Another action</MenuItem>
-                            <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem eventKey={3.3}>Separated link</MenuItem>
-                        </NavDropdown>
-                    </Nav>
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="#">
-                            Link Right
-                    </NavItem>
-                        <NavItem eventKey={2} href="#">
-                            Link Right
-                    </NavItem>
+                        <NavItem id="links" eventKey={1} href="#about">
+                            Sobre
+                        </NavItem>
+                        <NavItem id="links" eventKey={2} href="#recife">
+                            Recife
+                        </NavItem>
+                        <NavItem id="links" eventKey={2} href="#event">
+                            Evento
+                        </NavItem>
+                        <NavItem id="links" eventKey={2} href="#comissions">
+                            Comissões
+                        </NavItem>
+                        <NavItem id="links" eventKey={2} href="#contact">
+                            Contato
+                        </NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

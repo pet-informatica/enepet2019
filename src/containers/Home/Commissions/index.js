@@ -8,7 +8,7 @@ class Commissions extends Component {
 
     render() {
         return (
-            <div className="Commissions">
+            <div className="Commissions" id="commissions">
                 <Title title="Comissões" />
                 <div className="Commisions-body">
                     <Card
