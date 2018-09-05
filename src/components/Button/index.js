@@ -3,9 +3,18 @@ import './Button.css';
 
 class Button extends Component {
 
+    constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick = () => {
+        window.open(this.props.link);
+    }
+
     render() {
         return (
-            <div onClick={this.props.handleClick} className="Button">
+            <div onClick={this.handleClick} className="Button">
                 {this.props.name}
             </div>
         );

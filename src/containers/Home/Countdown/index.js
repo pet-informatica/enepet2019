@@ -107,7 +107,7 @@ class Countdown extends Component {
                         </OverlayTrigger>
                     </div>
                     <div className="Countdown-signup" style={{ backgroundColor: this.buttonColor }}>
-                        <Button name={"Inscreva-se!"} />
+                        <Button name={"Inscreva-se!"} link='https://google.com'/>
                     </div>
                 </div>
             </div>
