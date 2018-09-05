@@ -11,6 +11,11 @@
     border: 0;
 
     color: black;
+    opacity: 0.9;
+}
+
+.PanelTitle:hover {
+    opacity: 1;
 }
 
 .Panel-description {

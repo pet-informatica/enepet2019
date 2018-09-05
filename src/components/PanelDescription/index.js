@@ -13,9 +13,9 @@ class PanelDescription extends Component {
                     <p>{activities}</p>
                 </div>
                 <div className="Panel-reps">
-                    <p>{rep ? (<div><b className="Job">Representante</b>: {rep}</div>) : ""}</p>
-                    <p>{vice ? (<div><b className="Job">Vice-Representante</b>: {vice}</div>) : ""}</p>
-                    <p>{tutors ? (<div><b className="Job">Tutores-Guia</b>: {tutors}</div>) : ""}</p>
+                    <p>{rep ? (<div><b className="Job">Representante</b> {rep}</div>) : ""}</p>
+                    <p>{vice ? (<div><b className="Job">Vice-Representante</b> {vice}</div>) : ""}</p>
+                    <p>{tutors ? (<div><b className="Job">Tutores-Guia</b> {tutors}</div>) : ""}</p>
                 </div>
             </div>
         );
