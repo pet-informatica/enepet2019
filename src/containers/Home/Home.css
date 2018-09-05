@@ -24,14 +24,15 @@
 }
 
 .Border {
-    width: 10%;
-    /* background-image: linear-gradient(to bottom, white, rgba(70, 178, 157, 0.5), rgba(240, 202, 77, 0.5), rgba(119, 42, 70, 0.5)); */
+    width: 8%;
+    max-width: 90px;
+    background-image: linear-gradient(to bottom, white, rgba(70, 178, 157, 0.5), white, rgba(240, 202, 77, 0.5), white, rgba(119, 42, 70, 1));
 }
 
-#Border-left {
+/* #Border-left {
     background-image: linear-gradient(to right, rgba(70, 178, 157, 0.3) ,white);
 }
 
 #Border-right {
     background-image: linear-gradient(to left, rgba(70, 178, 157, 0.3) ,white);
-}
+} */
