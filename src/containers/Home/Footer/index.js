@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../../../assets/logos/logo.png';
 import './Footer.css';
 
 class Footer extends Component {
@@ -8,8 +7,7 @@ class Footer extends Component {
         return (
             <div className="Footer">
                 <div className="Footer-body">
-                    <h5>Copyright</h5>
-                    <img alt="logo" className="Footer-logo" src={logo}></img>
+                    <h5>© 2018 PET PE - Todos os direitos reservados</h5>
                 </div>
             </div>
         );

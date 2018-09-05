@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
 
-    border: thin solid black;
+    background-color: rgba(50, 77, 92, 1);
 }
 
 .Footer-body {
@@ -19,9 +19,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    
-    border: thin solid black;
+    justify-content: center;
+
+    font-family: Roboto;
+
+    color: white;
+
 }
 
 .Footer-logo {
