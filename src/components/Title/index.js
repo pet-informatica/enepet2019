@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Title.css';
 
-class ContactOption extends Component {
+class Title extends Component {
 
     render() {
         return (
@@ -12,4 +12,4 @@ class ContactOption extends Component {
     }
 }
 
-export default ContactOption;
+export default Title;

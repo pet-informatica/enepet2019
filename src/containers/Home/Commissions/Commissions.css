@@ -21,3 +21,25 @@
     font-family: Peleja;
     font-size: 2vh;
 }
+
+.panel-group {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+}
+
+.panel, .panel-default, .panel-collapse, .collapse in {
+    width: 100%;
+    max-width: 600px;
+}
+
+.panel-heading {
+    padding: 0px !important;
+}
+
+.panel-title > a:hover, .panel-title > a:visited, .panel-title > a:link, .panel-title > a:active {
+    text-decoration: none;
+}
