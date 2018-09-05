@@ -14,46 +14,47 @@ class Recife extends Component {
                 <Title title="Conheça Recife" />
                 <div className="Recife-attractions">
                     <Card
-                        title="Attraction 1"
+                        title="PNG redonda"
                         img={facebook}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
+                        description="Este card é um exemplo de imagem redonda com PNG. Passe a prop 'size' com valor 'contain' para que a imagem fique responsível."
                         color='green'
                         size='contain'
                     >
                     </Card>
                     <Card
-                        title="Attraction 2"
+                        title="Imagem completa"
                         img={rosa}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
+                        description="Este card é um exemplo de imagem completa. Passe a prop 'size' com valor 'cover' para que a imagem fique responsível."
                         color='blue'
                         size='cover'
                     >
                     </Card>
                     <Card
-                        title="Attraction 3"
+                        title="Link"
                         img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
+                        description="Exemplo de link. Passe a prop 'link' com o valor do link que você deseje que este card leve."
                         color='red'
+                        link='google.com'
                     >
                     </Card>
                     <Card
-                        title="Attraction 4"
+                        title="Texto curto"
                         img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputat."
+                        description="Um exemplo de texto curto."
                         color='yellow'
                     >
                     </Card>
                     <Card
-                        title="Attraction 5"
+                        title="Texto médio"
                         img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
+                        description="Um exemplo de texto médio. Um exemplo de texto médio. Um exemplo de texto médio."
                         color='red'
                     >
                     </Card>
                     <Card
-                        title="Attraction 6"
+                        title="Texto longo"
                         img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
+                        description="Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras!"
                         color='blue'
                     >
                     </Card>
