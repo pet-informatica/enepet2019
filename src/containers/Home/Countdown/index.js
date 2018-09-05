@@ -7,6 +7,7 @@ import './Countdown.css';
 const colors = ['rgb(70, 178, 157)', 'rgb(50, 77, 92)', 'rgb(119, 42, 70)'];
 
 /* 16 de novembro de 2018, às 11h */
+/* Nota: a contagem de meses começa em 0, portanto, lembre-se de subtrair 1 */
 const data = new Date(2018, 10, 16, 11);
 const dataString = "16 de novembro | 11:00"
 
@@ -31,23 +32,38 @@ class Countdown extends Component {
 
     componentDidMount() {
         this.calculateDifference();
-        setInterval(this.calculateDifference, 1000);
+        this.interval = setInterval(this.calculateDifference, 1000);
     }
 
     calculateDifference() {
+        let obj;
         const now = new Date();
         const diff = data - now;
-        const days = (diff / (1000 * 60 * 60 * 24));
-        const hours = (diff / (1000 * 60 * 60)) % 24;
-        const minutes = (diff / (1000 * 60)) % 60;
-        const seconds = (diff / 1000) % 60;
 
-        this.setState({
-            days: Math.floor(days),
-            hours: Math.floor(hours),
-            minutes: Math.floor(minutes),
-            seconds: Math.floor(seconds)
-        });
+        if (diff <= 0) {
+            obj = {
+                days: 0,
+                hours: 0,
+                minutes: 0,
+                seconds: 0
+            }
+
+            clearInterval(this.interval);
+        } else {
+            const days = (diff / (1000 * 60 * 60 * 24));
+            const hours = (diff / (1000 * 60 * 60)) % 24;
+            const minutes = (diff / (1000 * 60)) % 60;
+            const seconds = (diff / 1000) % 60;
+
+            obj = {
+                days: Math.floor(days),
+                hours: Math.floor(hours),
+                minutes: Math.floor(minutes),
+                seconds: Math.floor(seconds)
+            }
+        }
+
+        this.setState(obj);
     }
 
     render() {
@@ -72,22 +88,22 @@ class Countdown extends Component {
                             </div>
                         </OverlayTrigger>
                         <OverlayTrigger placement="top" overlay={tooltip}>
-                        <div className="Countdown-time-number" id="hours">
-                            <h3>{addZero(hours)}</h3>
-                            <h4>{checkPlural('hora', hours)}</h4>
-                        </div>
+                            <div className="Countdown-time-number" id="hours">
+                                <h3>{addZero(hours)}</h3>
+                                <h4>{checkPlural('hora', hours)}</h4>
+                            </div>
                         </OverlayTrigger>
                         <OverlayTrigger placement="top" overlay={tooltip}>
-                        <div className="Countdown-time-number" id="minutes">
-                            <h3>{addZero(minutes)}</h3>
-                            <h4>{checkPlural('minuto', minutes)}</h4>
-                        </div>
+                            <div className="Countdown-time-number" id="minutes">
+                                <h3>{addZero(minutes)}</h3>
+                                <h4>{checkPlural('minuto', minutes)}</h4>
+                            </div>
                         </OverlayTrigger>
                         <OverlayTrigger placement="top" overlay={tooltip}>
-                        <div className="Countdown-time-number" id="seconds">
-                            <h3>{addZero(seconds)}</h3>
-                            <h4>{checkPlural('segundo', seconds)}</h4>
-                        </div>
+                            <div className="Countdown-time-number" id="seconds">
+                                <h3>{addZero(seconds)}</h3>
+                                <h4>{checkPlural('segundo', seconds)}</h4>
+                            </div>
                         </OverlayTrigger>
                     </div>
                     <div className="Countdown-signup" style={{ backgroundColor: this.buttonColor }}>
