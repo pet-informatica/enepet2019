@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Card from '../../../components/Card';
 import Title from '../../../components/Title';
 import thumbnail from '../../../assets/imgs/thumbnail.svg';
+import word from '../../../assets/imgs/word.svg';
+import pdf from '../../../assets/imgs/pdf.svg';
+import calendar from '../../../assets/imgs/calendar.svg';
+import trabalho from '../../../assets/imgs/trabalho.svg';
 import './Event.css';
 
 class Event extends Component {
@@ -12,32 +16,29 @@ class Event extends Component {
                 <Title title="Evento" />
                 <div className="Event-body">
                     <Card
-                        title="Attraction 1"
-                        img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate."
-                        link="https://google.com"
-                        buttonName="Google"
+                        title="Cronograma"
+                        img={calendar}
+                        color="yellow"
+                        size="50% 50%"
+                        //link="https://drive.google.com/file/d/1gzQ0GRMhHZ65D0Bq7T1tN5WmUFeehCwS/view?usp=sharing"
+                        description="Em breve...">
+                    </Card>
+                    <Card
+                        title="Trabalhos"
+                        img={trabalho}
+                        size="50% 50%"
+                        color="red"
+                        description="Veja aqui o edital e o modelo de submissão dos trabalhos do PET PE 2018"
+                        link="https://drive.google.com/drive/folders/1uH7Sp7KGfYNSGuZw9gP-Y8KEEin22QBy?usp=sharing"
                     >
                     </Card>
                     <Card
-                        title="Attraction 2"
-                        img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
-                    </Card>
-                    <Card
-                        title="Attraction 3"
-                        img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
-                    </Card>
-                    <Card
-                        title="Attraction 4"
-                        img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputat.">
-                    </Card>
-                    <Card
-                        title="Attraction 5"
-                        img={thumbnail}
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non eleifend sem, sed pulvinar dui. Vestibulum facilisis, arcu sit amet gravida vulputate.">
+                        title="Oficinas"
+                        img={pdf}
+                        link="https://drive.google.com/drive/folders/1kFVoaYNaLbVIBsM2zwkhSyszXyZWfdpa?usp=sharing"
+                        size="50% 50%"
+                        color="blue"
+                        description="Em breve...">
                     </Card>
                 </div>
             </div>

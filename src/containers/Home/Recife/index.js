@@ -5,6 +5,10 @@ import thumbnail from '../../../assets/imgs/thumbnail.svg';
 import facebook from '../../../assets/imgs/facebook-logo.png';
 import google from '../../../assets/imgs/google.png';
 import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg';
+import brennand from '../../../assets/imgs/brennand.jpg';
+import parque from '../../../assets/imgs/parque_brennand.jpg';
+import frevo from '../../../assets/imgs/frevo.jpg';
+import artesanato from '../../../assets/imgs/artesanato.jpg';
 import './Recife.css';
 
 class Recife extends Component {
@@ -15,49 +19,44 @@ class Recife extends Component {
                 <Title title="Conheça Recife" />
                 <div className="Recife-attractions">
                     <Card
-                        title="PNG redonda"
-                        img={facebook}
-                        description="Este card é um exemplo de imagem redonda com PNG. Passe a prop 'size' com valor 'contain' para que a imagem fique responsível."
+                        title="Instituto Ricardo Brennand"
+                        img={brennand}
+                        description="Eleito o Melhor Museu do Brasil no prêmio Traveler’s Choice Award, o museu Ricardo Brennand traz um acervo cultural único. O local ocupa uma propriedade gigante com castelo, biblioteca e pinacoteca. Detalhe, fica bem pertinho da UFPE - Campus Recife. Não vai perder esta oportunidade!"
                         color='green'
+                        link="http://www.institutoricardobrennand.org.br/"
                         size='contain'
                     >
                     </Card>
                     <Card
-                        title="Imagem completa"
+                        title="Marco zero"
                         img={rosa}
-                        description="Este card é um exemplo de imagem completa. Passe a prop 'size' com valor 'cover' para que a imagem fique responsível."
+                        description="O Marco Zero do Recife é uma praça que marca o local onde nasceu a cidade, à beira do Cais do Porto. Localizado no Bairro do Recife (ou Recife Antigo), o local é marcado por um painel do artista plástico Cícero Dias, instalado no chão."
                         color='blue'
                         size='cover'
                     >
                     </Card>
                     <Card
-                        title="Link"
-                        img={google}
-                        description="Exemplo de link. Passe a prop 'link' com o valor do link que você deseje que este card leve."
+                        title="Centro de Artesanato"
+                        img={artesanato}
+                        description="Mesmo que a ideia não seja levar nada, entre e confira. Tem peças em barro, algodão, tecido, madeira, palha, couro e inúmeros outros materiais. E é ao lado do Marco Zero!"
                         color='red'
                         size='contain'
-                        link='https://google.com'
                     >
                     </Card>
                     <Card
-                        title="Texto curto"
-                        img={thumbnail}
-                        description="Um exemplo de texto curto."
+                        title="Parque das Esculturas Francisco Brennand"
+                        img={parque}
+                        description="Com vista para o Marco Zero, o Parque de Esculturas de Francisco Brennand é acessível de barco a partir da praça.
+                        A melhor forma de chegar até ele é pela navegação no Rio Capibaribe. Não são nem 5 minutinhos para ir do Marco Zero até o local, que fica à beira-mar, no molhe do porto."
                         color='yellow'
                     >
                     </Card>
                     <Card
-                        title="Texto médio"
-                        img={thumbnail}
-                        description="Um exemplo de texto médio. Um exemplo de texto médio. Um exemplo de texto médio."
+                        title="Paço do Frevo"
+                        img={frevo}
+                        description="Outro museu dedicado às tradições nordestinas é o Museu Paço do Frevo. Ele fica no Recife Antigo, a poucos metros do Marco Zero, na Praça da Torre Malakoff. O espaço tem várias salas com exposições de letras, composições, trajes dos passistas e discos de frevo no centro de documentação. "
                         color='red'
-                    >
-                    </Card>
-                    <Card
-                        title="Texto longo"
-                        img={thumbnail}
-                        description="Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras! Não passe dessa quantidade de palavras!"
-                        color='blue'
+                        size="contain"
                     >
                     </Card>
                 </div>
