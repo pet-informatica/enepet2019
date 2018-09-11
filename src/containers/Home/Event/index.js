@@ -40,6 +40,14 @@ class Event extends Component {
                         color="blue"
                         description="Em breve...">
                     </Card>
+                    {/* <Card
+                        title="Oficinas"
+                        img={pdf}
+                        link="https://drive.google.com/drive/folders/1kFVoaYNaLbVIBsM2zwkhSyszXyZWfdpa?usp=sharing"
+                        size="50% 50%"
+                        color="blue"
+                        description="Em breve...">
+                    </Card> */}
                 </div>
             </div>
         );
