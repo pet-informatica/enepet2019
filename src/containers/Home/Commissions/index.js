@@ -101,7 +101,7 @@ class Commissions extends Component {
                             <Panel.Heading>
                                 <Panel.Title toggle>
                                     <PanelTitle
-                                        title="Infraestrutura e Logística"
+                                        title="Científica"
                                         img={comunicacao}
                                         eventKey='4'
                                         activeKey={this.state.activeKey}
@@ -111,11 +111,10 @@ class Commissions extends Component {
                             </Panel.Heading>
                             <Panel.Body collapsible>
                                 <PanelDescription 
-                                activities="Comissão de Infraestrutura e Logística atua nas questões que envolvem o espaço físico do evento, por isso, é importante que essa comissão esteja sempre em contato com as demais para entender as necessidades do evento.
-                                Cabe a essa equipe as preocupações acerca da infraestrutura das salas e áreas onde ocorrerão as atividades do evento, portanto, levando em conta a instalação elétrica, presença de rede sem fio, disponibilidade de salas, controle de chaves, limpeza, etc. Além disso, é do escopo desta comissão as questões que envolvam o alojamento dos inscritos bem como o mínimo de bem estar, como presença de banheiros, entre outras.
-                                Cabe também a comissão se preocupar que o evento seja, em sua amplitude, acessível para todos e não desfavoreça qualquer pessoa que tenha uma necessidade especial."
-                                rep="Ramona Raissa | Conexões - Encontros Sociais"
-                                vice="Túlio Felipe | Geografia">
+                                activities="A Comissão Científica é responsável pela gerência da maior parte das atividades do PET PE 2018 e, portanto, é desejável que ela tenha um número maior de membros. Cabe a essa comissão a pauta dos GDT’s (com base nas atas dos InterPETs de 2018) e da Assembleia, a organização e treinamento das mesas dessas atividades e a geração da ata final do evento.
+                                Cabe também a essa comissão a seleção e organização de trabalhos a serem apresentados pelos inscritos, seja em pôster, apresentação oral ou oficina, além da emissão de certificados."
+                                rep="Maria Luiza | Informática"
+                                vice="Alexia Serpa | Geografia">
                                 </PanelDescription>
                             </Panel.Body>
                         </Panel>
