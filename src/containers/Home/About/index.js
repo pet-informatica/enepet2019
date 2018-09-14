@@ -13,7 +13,11 @@ class About extends Component {
                 <Title title="Sobre"></Title>
                 <div className="About-description">
                 <div className="About-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ligula quis augue eleifend fermentum. Maecenas lobortis dapibus tellus sit amet commodo. Duis placerat neque diam, in efficitur nisl commodo eu. Duis volutpat ac enim at elementum. Phasellus sit amet neque sit amet eros sagittis ornare. Sed vitae diam nibh. Sed semper, enim viverra facilisis mattis, tortor libero aliquet nisl, euismod commodo nunc ex eget elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum sapien libero, quis sollicitudin mauris tincidunt non. Etiam erat leo, pharetra vitae ligula nec, interdum scelerisque elit. Aenean ornare tellus vel metus blandit, at maximus elit ullamcorper. Sed porta erat nunc, in fringilla erat sodales ut.</p>
+                        <p>&emsp;Anualmente o Encontro do Programa de Educação Tutorial em Pernambuco reúne PETianos discentes, docentes e egressos de diversos grupos PET do estado para discutir questões sociais, políticas e acadêmicas que rodeiam o Programa, sendo um importante momento para o fortalecimento e o reconhecimento do mesmo.</p>
+                        <br/>
+                        <p>&emsp;Após as duas últimas edições aconteceram no interior do Estado, em 2018 o PET PE volta à capital pernambucana em sua 20ª edição, sendo a Universidade Federal de Pernambuco (UFPE) a grande anfitriã. Com o tema “Ponto de Partida da Integração PETiana”, o evento que acontecerá nos dias 16, 17 e 18 de novembro e visa fortalecer e estabelecer um maior diálogo entre os grupos PET do estado.</p>
+                        <br />
+                        <p>&emsp;Na programação serão abrangidos diversos conteúdos relacionados ao contexto atual do programa, assim como momentos de integração e um espaço para apresentação de trabalhos, estimulando a troca de experiências e um maior reconhecimento do que é produzido pelos grupos no decorrer do ano.</p>
                     </div>
                     <div 
                         className="About-division"
