@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../../../components/Card';
 import Title from '../../../components/Title';
-import thumbnail from '../../../assets/imgs/thumbnail.svg';
-import word from '../../../assets/imgs/word.svg';
 import pdf from '../../../assets/imgs/pdf.svg';
 import calendar from '../../../assets/imgs/calendar.svg';
 import trabalho from '../../../assets/imgs/trabalho.svg';

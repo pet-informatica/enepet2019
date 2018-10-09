@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../../../components/Card';
 import Title from '../../../components/Title';
-import thumbnail from '../../../assets/imgs/thumbnail.svg';
-import facebook from '../../../assets/imgs/facebook-logo.png';
-import google from '../../../assets/imgs/google.png';
 import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg';
 import brennand from '../../../assets/imgs/brennand.jpg';
 import parque from '../../../assets/imgs/parque_brennand.jpg';
