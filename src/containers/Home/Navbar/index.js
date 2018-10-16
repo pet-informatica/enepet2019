@@ -30,6 +30,9 @@ class CustomNavbar extends Component {
                         <NavItem id="links" eventKey={2} href="#contact">
                             Contato
                         </NavItem>
+                        <NavItem id="links" eventKey={2} href="#sponsors">
+                            Apoio
+                        </NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -7,6 +7,7 @@ import Event from './Event';
 import Contact from './Contact';
 import Commissions from './Commissions';
 import Footer from './Footer';
+import Sponsors from './Sponsors'
 import './Home.css';
 import '../../assets/bootstrap/css/bootstrap.min.css';
 
@@ -42,6 +43,7 @@ class Home extends Component {
                             <Event />
                             <Commissions />
                             <Contact />
+                            <Sponsors />
                         </div>
                         <div id="Border-right" className="Border"></div>
                     </div>
