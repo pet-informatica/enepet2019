@@ -36,7 +36,7 @@ class Event extends Component {
                         link="https://drive.google.com/drive/folders/1kFVoaYNaLbVIBsM2zwkhSyszXyZWfdpa?usp=sharing"
                         size="50% 50%"
                         color="blue"
-                        description="Em breve...">
+                        description="Acesse o modelo de submissão das oficinas para o PET PE 2018">
                     </Card>
                     {/* <Card
                         title="Oficinas"
