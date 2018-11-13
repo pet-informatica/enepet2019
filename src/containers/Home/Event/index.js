@@ -4,6 +4,7 @@ import Title from '../../../components/Title';
 import pdf from '../../../assets/imgs/pdf.svg';
 import calendar from '../../../assets/imgs/calendar.svg';
 import trabalho from '../../../assets/imgs/trabalho.svg';
+import banner from '../../../assets/imgs/poster.svg'
 import './Event.css';
 
 class Event extends Component {
@@ -18,8 +19,8 @@ class Event extends Component {
                         img={calendar}
                         color="yellow"
                         size="50% 50%"
-                        //link="https://drive.google.com/file/d/1gzQ0GRMhHZ65D0Bq7T1tN5WmUFeehCwS/view?usp=sharing"
-                        description="Em breve...">
+                        link="https://drive.google.com/file/d/14sGsq_mTI_De8xubnA5bStccFK4spcwu/view?usp=sharing"
+                        description="Confira o cronograma do evento">
                     </Card>
                     <Card
                         title="Trabalhos"
@@ -38,14 +39,14 @@ class Event extends Component {
                         color="blue"
                         description="Acesse o modelo de submissão das oficinas para o PET PE 2018">
                     </Card>
-                    {/* <Card
-                        title="Oficinas"
-                        img={pdf}
-                        link="https://drive.google.com/drive/folders/1kFVoaYNaLbVIBsM2zwkhSyszXyZWfdpa?usp=sharing"
+                    <Card
+                        title="Banner"
+                        img={banner}
+                        link="https://drive.google.com/drive/folders/1MH0OQN-K3sumv6vRFlJa7AMTWqDCP9z8?usp=sharing"
                         size="50% 50%"
                         color="blue"
-                        description="Em breve...">
-                    </Card> */}
+                        description="Acesse o modelo para o banner e o papel timbrado oficial do evento">
+                    </Card>
                 </div>
             </div>
         );
