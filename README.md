@@ -1,4 +1,4 @@
-# PET PE 2018
+ENEPET 2019
 
 ## Installing and running
 
