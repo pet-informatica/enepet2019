@@ -23,16 +23,14 @@
 
 }
 
+
+/*
+Colors:
+Beige: #FFEC78 | rgba(255, 236, 120, 0.5)
+Red: #FE8585 | rgba(254, 133, 133, 0.5)
+*/
 .Border {
     width: 10px;
     max-width: 90px;
-    background-image: linear-gradient(to bottom, white, rgba(70, 178, 157, 0.5), white, rgba(119, 42, 70, 1));
+    background-image: linear-gradient(to bottom, rgba(255, 236, 120, 0.5), white, rgba(254, 133, 133, 1));
 }
-
-/* #Border-left {
-    background-image: linear-gradient(to right, rgba(70, 178, 157, 0.3) ,white);
-}
-
-#Border-right {
-    background-image: linear-gradient(to left, rgba(70, 178, 157, 0.3) ,white);
-} */
