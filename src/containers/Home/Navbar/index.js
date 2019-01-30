@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import './Navbar.css';
+import iconWhite from '../../../assets/logos/Icon (white).png';
 
 class CustomNavbar extends Component {
 
@@ -9,7 +10,12 @@ class CustomNavbar extends Component {
             <Navbar fixedTop={true} collapseOnSelect id="navbar">
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a id="brand" href="/#">PET PE 2018</a>
+                        <a id="brand" href="/#">
+                            <div className="iconDiv">
+                                <img src={iconWhite}></img>
+                            </div>
+                            <div>ENEPET 2019</div>
+                        </a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>

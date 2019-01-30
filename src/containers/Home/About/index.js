@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Title from '../../../components/Title';
-import logo from '../../../assets/logos/logo.png';
+import icon from '../../../assets/logos/Icon.png';
 import './About.css';
 
 class About extends Component {
@@ -28,7 +28,7 @@ class About extends Component {
                         }}
                     >
                     </div>
-                    <img alt="logo" src={logo} className="About-logo"></img>
+                    <img alt="logo" src={icon} className="About-logo"></img>
                 </div>
             </div>
         );
