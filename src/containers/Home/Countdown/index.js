@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 import Button from '../../../components/Button';
-import rosa from '../../../assets/imgs/rosa-dos-ventos-5.jpg'
+import rosa from '../../../assets/imgs/snazzy-image.png'
 import './Countdown.css';
 
 const colors = ['rgb(70, 178, 157)', 'rgb(50, 77, 92)', 'rgb(119, 42, 70)'];
