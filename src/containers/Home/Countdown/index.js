@@ -6,10 +6,10 @@ import './Countdown.css';
 
 const colors = ['rgb(70, 178, 157)', 'rgb(50, 77, 92)', 'rgb(119, 42, 70)'];
 
-/* 16 de novembro de 2018, às 11h */
+/* 26 de abril de 2019, às 16h */
 /* Nota: a contagem de meses começa em 0, portanto, lembre-se de subtrair 1 */
-const data = new Date(2018, 10, 16, 11);
-const dataString = "16 de novembro | 11:00"
+const data = new Date(2019, 3, 26, 16);
+const dataString = "26 de abril | 16:00"
 
 const addZero = (time => (time < 10 ? `${time}` : time));
 const checkPlural = ((name, time) => (time === 1 ? name : `${name}s`));
