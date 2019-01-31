@@ -7,10 +7,15 @@ class About extends Component {
 
     render() {
         const { isMobile } = this.props;
+        const theme = '"Resistir é compartilhar"'
+        const subtheme = "Fortalecendo o programa através do compartilhamento de saberes"
 
         return (
             <div className="About" id="about">
-                <Title title="Sobre"></Title>
+                <div className="Title">
+                    <h1 className="Title-heading">{theme}</h1>
+                    <h1 className="Title-subheading"><i>{subtheme}</i></h1>
+                </div>
                 <div className="About-description">
                 <div className="About-text">
                         <p>&emsp;Anualmente o Encontro do Programa de Educação Tutorial em Pernambuco reúne PETianos discentes, docentes e egressos de diversos grupos PET do estado para discutir questões sociais, políticas e acadêmicas que rodeiam o Programa, sendo um importante momento para o fortalecimento e o reconhecimento do mesmo.</p>
