@@ -43,7 +43,6 @@ class Home extends Component {
                             <Event />
                             <Commissions />
                             <Contact />
-                            <Sponsors />
                         </div>
                         <div id="Border-right" className="Border"></div>
                     </div>

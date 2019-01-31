@@ -10,10 +10,12 @@ class About extends Component {
         const theme = '"Resistir é compartilhar"'
         const subtheme = "Fortalecendo o programa através do compartilhamento de saberes"
 
+        const size = isMobile ? "6vh" : "7vh";
+
         return (
             <div className="About" id="about">
                 <div className="Title">
-                    <h1 className="Title-heading">{theme}</h1>
+                    <h1 style={{fontSize: size}} className="Title-heading">{theme}</h1>
                     <h1 className="Title-subheading"><i>{subtheme}</i></h1>
                 </div>
                 <div className="About-description">
