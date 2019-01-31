@@ -7,7 +7,6 @@ import Event from './Event';
 import Contact from './Contact';
 import Commissions from './Commissions';
 import Footer from './Footer';
-import Sponsors from './Sponsors'
 import './Home.css';
 import '../../assets/bootstrap/css/bootstrap.min.css';
 

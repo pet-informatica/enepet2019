@@ -12,7 +12,7 @@ class CustomNavbar extends Component {
                     <Navbar.Brand>
                         <a id="brand" href="/#">
                             <div className="iconDiv">
-                                <img src={iconWhite}></img>
+                                <img alt="icon" src={iconWhite}></img>
                             </div>
                             <div>ENEPET 2019</div>
                         </a>
