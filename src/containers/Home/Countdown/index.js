@@ -4,8 +4,6 @@ import Button from '../../../components/Button';
 import rosa from '../../../assets/imgs/snazzy-image.png'
 import './Countdown.css';
 
-const colors = ['rgb(70, 178, 157)', 'rgb(50, 77, 92)', 'rgb(119, 42, 70)'];
-
 /* 26 de abril de 2019, às 16h */
 /* Nota: a contagem de meses começa em 0, portanto, lembre-se de subtrair 1 */
 const data = new Date(2019, 3, 26, 16);
@@ -13,6 +11,7 @@ const dataString = "26 de abril | 16:00"
 
 const addZero = (time => (time < 10 ? `${time}` : time));
 const checkPlural = ((name, time) => (time === 1 ? name : `${name}s`));
+const link = "https://docs.google.com/forms/d/e/1FAIpQLSc8TXSf5hCuoLOQlXlP4eXMQi55hTbKby3-tsyTE5C5fHOfWA/viewform";
 
 class Countdown extends Component {
 
@@ -26,8 +25,6 @@ class Countdown extends Component {
     constructor(props) {
         super(props);
         this.calculateDifference = this.calculateDifference.bind(this);
-
-        this.buttonColor = colors[Math.floor(Math.random() * 3)];
     }
 
     componentDidMount() {
@@ -106,8 +103,8 @@ class Countdown extends Component {
                             </div>
                         </OverlayTrigger>
                     </div>
-                    <div className="Countdown-signup" style={{ backgroundColor: this.buttonColor }}>
-                        <Button name={"Inscreva-se!"} link='https://www.even3.com.br/XXPETPE'/>
+                    <div className="Countdown-signup" style={{ backgroundColor: "white" }}>
+                        <Button name={"Realize sua pré-inscrição!"} link={link}/>
                     </div>
                 </div>
             </div>
