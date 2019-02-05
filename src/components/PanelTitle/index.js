@@ -17,7 +17,7 @@ class PanelTitle extends Component {
         const arrow = (activeKey === eventKey ? up : down);
 
         return (
-            <div className="PanelTitle" style={{backgroundColor: this.colors[color]}}>
+            <div className="PanelTitle">
                 <div className="Panel-description">
                     <div 
                         className="Panel-image"

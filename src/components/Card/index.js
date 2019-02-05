@@ -33,7 +33,7 @@ class Card extends Component {
                     }}
                 >
                 </div>
-                <div className="Card-title" style={{ color: this.colors[this.props.color] }}>
+                <div className="Card-title" style={{ color: "black" }}>
                     <h4> {this.props.title} </h4>
                 </div>
                 <div className="Card-description">
