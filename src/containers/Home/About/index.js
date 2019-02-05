@@ -16,7 +16,7 @@ class About extends Component {
             <div className="About" id="about">
                 <div className="Title">
                     <h1 style={{ fontSize: size }} className="Title-heading">{theme}</h1>
-                    <h1 className="Title-subheading"><i>{subtheme}</i></h1>
+                    <h1 className="Title-subheading"><b>{subtheme}</b></h1>
                 </div>
                 <div className="About-description">
                     <div className="About-text">
@@ -32,7 +32,7 @@ class About extends Component {
                             <div className="About-boloTxt">
                                 <div className="About-boloTitle">
                                     <p style={{fontSize:"25px"}}><b>Bolo de rolo</b></p>
-                                    <p><i>A hipnose pernambucana</i></p>
+                                    <p><b>A hipnose pernambucana</b></p>
                                 </div>
                                 <p>&emsp;Após as duas últimas edições aconteceram no interior do Estado, em 2018 o PET PE volta à capital pernambucana em sua 20ª edição, sendo a Universidade Federal de Pernambuco (UFPE) a grande anfitriã. Com o tema “Ponto de Partida da Integração PETiana”, o evento que acontecerá nos dias 16, 17 e 18 de novembro e visa fortalecer e estabelecer um maior diálogo entre os grupos PET do estado.</p>
                             </div>
