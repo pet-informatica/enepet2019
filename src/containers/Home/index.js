@@ -38,7 +38,7 @@ class Home extends Component {
                         <div id="Border-left" className="Border"></div>
                         <div className="Body-content">
                             <About isMobile={this.state.isMobile}/>
-                            <Recife />
+                            {/* <Recife /> */}
                             <Event />
                             <Commissions />
                             <Contact />
