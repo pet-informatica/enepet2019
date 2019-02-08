@@ -18,34 +18,37 @@ class Event extends Component {
                         title="Cronograma"
                         img={calendar}
                         color="yellow"
-                        size="50% 50%"
+                        size="50% 100%"
                         link="https://drive.google.com/file/d/14sGsq_mTI_De8xubnA5bStccFK4spcwu/view?usp=sharing"
-                        description="Confira o cronograma do evento">
+                        id="Event-cronograma"
+                        >
                     </Card>
                     <Card
-                        title="Trabalhos"
+                        title="Edital"
                         img={trabalho}
-                        size="50% 50%"
+                        size="50% 100%"
                         color="red"
-                        description="Veja aqui o edital e o modelo de submissão dos trabalhos do PET PE 2018"
                         link="https://drive.google.com/drive/folders/1uH7Sp7KGfYNSGuZw9gP-Y8KEEin22QBy?usp=sharing"
+                        id="Event-edital"
                     >
                     </Card>
                     <Card
                         title="Oficinas"
                         img={pdf}
                         link="https://drive.google.com/drive/folders/1kFVoaYNaLbVIBsM2zwkhSyszXyZWfdpa?usp=sharing"
-                        size="50% 50%"
+                        size="50% 100%"
                         color="blue"
-                        description="Acesse o modelo de submissão das oficinas para o PET PE 2018">
+                        id="Event-oficinas"
+                        >
                     </Card>
                     <Card
                         title="Banner"
                         img={banner}
                         link="https://drive.google.com/drive/folders/1MH0OQN-K3sumv6vRFlJa7AMTWqDCP9z8?usp=sharing"
-                        size="50% 50%"
+                        size="50% 100%"
                         color="blue"
-                        description="Acesse o modelo para o banner e o papel timbrado oficial do evento">
+                        id="Event-banner"
+                        >
                     </Card>
                 </div>
             </div>

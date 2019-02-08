@@ -1,14 +1,14 @@
 .Card {
-    height: 400px;
-    width: 280px;
-    margin: 10px;
+    height: 150px;
+    width: 150px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
-    border-radius: 10px;
+    border-left: thin solid black;
+
 }
 
 .Card:hover {
@@ -35,8 +35,6 @@
     align-items: center;
 
     font-family: Peleja;
-
-    border-bottom: thin solid lightgrey;
 }
 
 .Card-description {

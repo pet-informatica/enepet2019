@@ -12,6 +12,17 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+#Event-cronograma {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left: 0px;
+}
+
+#Event-banner {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
