@@ -3,7 +3,14 @@ import { PanelGroup, Panel } from 'react-bootstrap';
 import Title from '../../../components/Title';
 import PanelTitle from '../../../components/PanelTitle';
 import PanelDescription from '../../../components/PanelDescription';
-import comunicacao from '../../../assets/imgs/comunicacao.png';
+import comunicacao from '../../../assets/imgs/marketing.png';
+import alimentacao from '../../../assets/imgs/alimentacao.png';
+import cientifica from '../../../assets/imgs/cientifica.png';
+import secretariado from '../../../assets/imgs/secretariado.png';
+import financeira from '../../../assets/imgs/financeira.png';
+import infraestrutura from '../../../assets/imgs/infraestrutura.png';
+import integracao from '../../../assets/imgs/integracao.png';
+import central from '../../../assets/imgs/central.png';
 import './Commissions.css';
 
 class Commissions extends Component {
@@ -36,7 +43,7 @@ class Commissions extends Component {
                                 <Panel.Title toggle>
                                     <PanelTitle
                                         title="Infraestrutura e Logística"
-                                        img={comunicacao}
+                                        img={infraestrutura}
                                         eventKey='1'
                                         activeKey={this.state.activeKey}
                                         color='blue'
@@ -45,9 +52,7 @@ class Commissions extends Component {
                             </Panel.Heading>
                             <Panel.Body collapsible>
                                 <PanelDescription
-                                    activities="A Comissão de Infraestrutura e Logística atua nas questões que envolvem o espaço físico do evento, por isso, é importante que essa comissão esteja sempre em contato com as demais para entender as necessidades do evento.
-                                    Cabe a essa equipe as preocupações acerca da infraestrutura das salas e áreas onde ocorrerão as atividades do evento, portanto, levando em conta a instalação elétrica, presença de rede sem fio, disponibilidade de salas, controle de chaves, limpeza, etc. Além disso, é do escopo desta comissão as questões que envolvam o alojamento dos inscritos bem como o mínimo de bem estar, como presença de banheiros, entre outras.
-                                    Cabe também a comissão se preocupar que o evento seja, em sua amplitude, acessível para todos e não desfavoreça qualquer pessoa que tenha uma necessidade especial."
+                                    activities=""
                                     rep="Ramona Raissa | Conexões - Encontros Sociais"
                                     vice="Túlio Felipe | Geografia"
                                 />
@@ -80,7 +85,7 @@ class Commissions extends Component {
                                 <Panel.Title toggle>
                                     <PanelTitle
                                         title="Financeira"
-                                        img={comunicacao}
+                                        img={financeira}
                                         eventKey='3'
                                         activeKey={this.state.activeKey}
                                         color='yellow'
@@ -102,7 +107,7 @@ class Commissions extends Component {
                                 <Panel.Title toggle>
                                     <PanelTitle
                                         title="Científica"
-                                        img={comunicacao}
+                                        img={cientifica}
                                         eventKey='4'
                                         activeKey={this.state.activeKey}
                                         color='green'
@@ -111,7 +116,7 @@ class Commissions extends Component {
                             </Panel.Heading>
                             <Panel.Body collapsible>
                                 <PanelDescription 
-                                activities="A Comissão Científica é responsável pela gerência da maior parte das atividades do PET PE 2018 e, portanto, é desejável que ela tenha um número maior de membros. Cabe a essa comissão a pauta dos GDT’s (com base nas atas dos InterPETs de 2018) e da Assembleia, a organização e treinamento das mesas dessas atividades e a geração da ata final do evento.
+                                activities="A Comissão Científica é responsável pela gerência da maior parte das atividades do ENEPET 2019 e, portanto, é desejável que ela tenha um número maior de membros. Cabe a essa comissão a pauta dos GDT’s (com base nas atas dos InterPETs de 2018) e da Assembleia, a organização e treinamento das mesas dessas atividades e a geração da ata final do evento.
                                 Cabe também a essa comissão a seleção e organização de trabalhos a serem apresentados pelos inscritos, seja em pôster, apresentação oral ou oficina, além da emissão de certificados."
                                 rep="Maria Luiza | Informática"
                                 vice="Alexia Serpa | Geografia">
@@ -123,7 +128,7 @@ class Commissions extends Component {
                                 <Panel.Title toggle>
                                     <PanelTitle
                                         title="Integração e Eventos"
-                                        img={comunicacao}
+                                        img={integracao}
                                         eventKey='5'
                                         activeKey={this.state.activeKey}
                                         color='blue'
@@ -132,7 +137,7 @@ class Commissions extends Component {
                             </Panel.Heading>
                             <Panel.Body collapsible>
                                 <PanelDescription 
-                                activities="A Comissão de Integração e Eventos trata das questões relacionadas ao bem estar dos inscritos e da integração dos mesmos. Nesse sentido, cabe a essa comissão a recepção dos inscritos no evento, bem como toda a organização referente aos eventos de integração, seja a cobrança ou não de ingresso à parte, o horário do evento (considerando as demais atividades do PET PE), entre outras questões relacionadas."
+                                activities="A Comissão de Integração e Eventos trata das questões relacionadas ao bem estar dos inscritos e da integração dos mesmos. Nesse sentido, cabe a essa comissão a recepção dos inscritos no evento, bem como toda a organização referente aos eventos de integração, seja a cobrança ou não de ingresso à parte, o horário do evento (considerando as demais atividades do ENEPET), entre outras questões relacionadas."
                                 rep="Cynthia Patrícia | Conexões - GPP"
                                 vice="Tiago Morais | Mentor Aprendiz">
                                 </PanelDescription>
@@ -143,7 +148,7 @@ class Commissions extends Component {
                                 <Panel.Title toggle>
                                     <PanelTitle
                                         title="Alimentação"
-                                        img={comunicacao}
+                                        img={alimentacao}
                                         eventKey='6'
                                         activeKey={this.state.activeKey}
                                         color='yellow'
@@ -162,8 +167,8 @@ class Commissions extends Component {
                             <Panel.Heading>
                                 <Panel.Title toggle>
                                     <PanelTitle
-                                        title="Comissão Central"
-                                        img={comunicacao}
+                                        title="Secretariado"
+                                        img={secretariado}
                                         eventKey='7'
                                         activeKey={this.state.activeKey}
                                         color='red'
@@ -172,8 +177,36 @@ class Commissions extends Component {
                             </Panel.Heading>
                             <Panel.Body collapsible>
                                 <PanelDescription 
-                                activities="A Comissão Central não tem um representante, ela é formada pelos das outras comissões e pelos representantes discentes do PET na UFPE.
-                                Sua principal função é acompanhar o trabalho de todas as demais comissões, atentando-se aos seus cronogramas internos e ao cronograma geral ao longo das quinzenas do ano de 2018 até a data do PET PE 2018. Cabe também à Comissão Central deliberar sobre questões que as demais comissões não podem decidir sozinhas, quer seja porque afetam as outras comissões, quer seja porque afetem a estrutura central do evento todo. Além disso, cabe a Comissão Central definir o cronograma de atividades do evento e de InterPETs ao longo do ano, com base no trabalho feito pelas outras comissões, e todas as informações necessárias para a inscrição de alguém, com base no pedido das outras comissões."
+                                activities="A Comissão de Secretariado é responsável pelo credenciamento dos participantes, levantamento de orçamento e confecção dos kits de boas-vindas, relatorias e declarações de caráter urgente para pessoas que precisem comprovar a presença no
+                                evento devido a estágios e atividades acadêmicas, entre outros imprevistos."
+                                >
+                                </PanelDescription>
+                            </Panel.Body>
+                        </Panel>
+                        <Panel eventKey="8">
+                            <Panel.Heading>
+                                <Panel.Title toggle>
+                                    <PanelTitle
+                                        title="Comissão Central"
+                                        img={central}
+                                        eventKey='7'
+                                        activeKey={this.state.activeKey}
+                                        color='red'
+                                    />
+                                </Panel.Title>
+                            </Panel.Heading>
+                            <Panel.Body collapsible>
+                                <PanelDescription 
+                                activities="A Comissão Central será formada por representantes de cada
+                                uma das comissões restantes. Tendo como principal função o acompanhamento dos
+                                trabalhos de todas elas, atentando-se aos seus cronogramas internos e ao cronograma
+                                geral de organização do evento. Cabe também à Comissão Central deliberar sobre
+                                questões que as demais comissões não possam decidir sozinhas, quer seja porque afetam
+                                as outras comissões, quer seja porque afetem a estrutura central do evento como um
+                                todo. Além disso, a Comissão Central definirá um cronograma de reuniões para a
+                                socialização do andamento das atividades do evento, além de planejar o cronograma de
+                                atividades referente ao evento, bem como administrar e coordenar algumas delas,
+                                dialogando com as demais comissões."
                                 >
                                 </PanelDescription>
                             </Panel.Body>
