@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 import './Card.css';
 
 class Card extends Component {
@@ -27,20 +28,28 @@ class Card extends Component {
         const { isMobile } = this.props;
         const className = (isMobile ? "Card-mobile" : "Card-desktop")
 
+        const tooltip = (
+            <Tooltip id="tooltip">
+                Clique para baixar
+            </Tooltip>
+        )
+
         return (
-            <div id={this.props.id} className={className} onClick={this.handleClick}>
-                <div
-                    className="Card-image"
-                    style={{
-                        backgroundImage: `url(${this.props.img})`,
-                        backgroundSize: (this.props.size ? this.props.size : 'cover')
-                    }}
-                >
+            <OverlayTrigger placement="top" overlay={tooltip}>
+                <div id={this.props.id} className={className} onClick={this.handleClick}>
+                    <div
+                        className="Card-image"
+                        style={{
+                            backgroundImage: `url(${this.props.img})`,
+                            backgroundSize: (this.props.size ? this.props.size : 'cover')
+                        }}
+                    >
+                    </div>
+                    <div className="Card-title" style={{ color: "black" }}>
+                        <h4> {this.props.title} </h4>
+                    </div>
                 </div>
-                <div className="Card-title" style={{ color: "black" }}>
-                    <h4> {this.props.title} </h4>
-                </div>
-            </div>
+            </OverlayTrigger>
         )
     }
 }
