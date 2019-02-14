@@ -43,7 +43,8 @@
 }
 
 .About-logo {
-    width: 220px;
+    width: 80vw;
+    max-width: 400px;
 }
 
 .About-text {

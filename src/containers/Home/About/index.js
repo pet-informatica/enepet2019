@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import icon from '../../../assets/logos/Icon.png';
+import icon from '../../../assets/logos/Logo (short).png';
 import bolo from '../../../assets/imgs/bolo1.png';
 import './About.css';
 
@@ -20,9 +20,11 @@ class About extends Component {
                 </div>
                 <div className="About-description">
                     <div className="About-text">
-                        <p>&emsp;Anualmente o Encontro do Programa de Educação Tutorial em Pernambuco reúne PETianos discentes, docentes e egressos de diversos grupos PET do estado para discutir questões sociais, políticas e acadêmicas que rodeiam o Programa, sendo um importante momento para o fortalecimento e o reconhecimento do mesmo.</p>
-                        <br />
-                        <p>&emsp;Após as duas últimas edições aconteceram no interior do Estado, em 2018 o PET PE volta à capital pernambucana em sua 20ª edição, sendo a Universidade Federal de Pernambuco (UFPE) a grande anfitriã. Com o tema “Ponto de Partida da Integração PETiana”, o evento que acontecerá nos dias 16, 17 e 18 de novembro e visa fortalecer e estabelecer um maior diálogo entre os grupos PET do estado.</p>
+                        <p>&emsp;O ENEPET 2019 traz consigo uma ideia: resistir é compartilhar. Em seus sentidos latos, resistir tem sentido de conservar-se firme, de não ceder; e compartilhar significa arcar juntamente, tomar parte.</p> 
+                            
+                        <p>&emsp;Nós da organização do ENEPET, acreditamos que resistimos e mantemos o funcionamento do programa ao compartilhar experiências, ideias e conhecimentos sobre o ser petiana(o); que é por meio do diálogo entre grupos, CLAAs e outras e IES que conseguimos fortalecer o PET Nordeste; e que é na rotina das reuniões e atividades que entendemos o real significado do aprender fazendo e refletindo sobre.</p>
+
+                        <p>&emsp;Assim, buscamos construir uma programação que abarcasse da melhor forma a realidade de todos os grupos, para que possamos juntos propor as mudanças que queremos e consolidar cada vez mais nosso programa. A gente se vê em Recife!</p>
 
                         <div className="About-bolo">
                             <div className="About-boloImg">
@@ -34,7 +36,9 @@ class About extends Component {
                                     <p style={{fontSize:"25px"}}><b>Bolo de rolo</b></p>
                                     <p><b>A hipnose pernambucana</b></p>
                                 </div>
-                                <p>&emsp;Após as duas últimas edições aconteceram no interior do Estado, em 2018 o PET PE volta à capital pernambucana em sua 20ª edição, sendo a Universidade Federal de Pernambuco (UFPE) a grande anfitriã. Com o tema “Ponto de Partida da Integração PETiana”, o evento que acontecerá nos dias 16, 17 e 18 de novembro e visa fortalecer e estabelecer um maior diálogo entre os grupos PET do estado.</p>
+                                <p>&emsp;Ele mesmo, o que você comia quando era criança ou na casa da sua avó! A historiografia fala que o bolo de rolo chegou aqui pelos portugueses como um tipo de pão de ló. Mas como Pernambuco tinha coisa muito mais gostosa para adicionar, ao passar do tempo e com muita criatividade, as pessoas foram modificando a massa, resolveram colocar doce de goiaba como recheio e enrolar dessa maneira que conhecemos hoje.</p>
+
+                                <p>&emsp;De acordo com a lei nº 13.436/2008, o bolo de rolo passou a ser considerado Patrimônio Cultural Imaterial do Estado de Pernambuco; mostrando que ele é mais uma de nossas várias práticas, conhecimentos e técnicas que, transmitidos ao longo do tempo, ajudam a construir aquilo que entendemos como identidade nordestina. </p>
                             </div>
                         </div>
 
@@ -42,7 +46,7 @@ class About extends Component {
                     <div
                         className="About-division"
                         style={{
-                            height: (isMobile ? 1 : 400),
+                            height: (isMobile ? 1 : 500),
                             width: (isMobile ? '90%' : 1),
                             backgroundColor: 'lightgrey'
                         }}
