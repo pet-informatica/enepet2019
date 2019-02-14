@@ -7,7 +7,7 @@ class About extends Component {
 
     render() {
         const { isMobile } = this.props;
-        const theme = '"RESISTIR É COMPARTILHAR"'
+        const theme = '"Compartilhar é Resister"'
         const subtheme = "Fortalecendo o programa através do compartilhamento de saberes"
 
         const size = isMobile ? "6vh" : "7vh";
@@ -20,7 +20,7 @@ class About extends Component {
                 </div>
                 <div className="About-description">
                     <div className="About-text">
-                        <p>&emsp;O ENEPET 2019 traz consigo uma ideia: resistir é compartilhar. Em seus sentidos latos, resistir tem sentido de conservar-se firme, de não ceder; e compartilhar significa arcar juntamente, tomar parte.</p> 
+                        <p>&emsp;O ENEPET 2019 traz consigo uma ideia: compartilhar é resistir. Em seus sentidos latos, resistir tem sentido de conservar-se firme, de não ceder; e compartilhar significa arcar juntamente, tomar parte.</p> 
                             
                         <p>&emsp;Nós da organização do ENEPET, acreditamos que resistimos e mantemos o funcionamento do programa ao compartilhar experiências, ideias e conhecimentos sobre o ser petiana(o); que é por meio do diálogo entre grupos, CLAAs e outras e IES que conseguimos fortalecer o PET Nordeste; e que é na rotina das reuniões e atividades que entendemos o real significado do aprender fazendo e refletindo sobre.</p>
 
