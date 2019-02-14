@@ -24,9 +24,6 @@ class CustomNavbar extends Component {
                         <NavItem id="links" eventKey={1} href="#about">
                             Sobre
                         </NavItem>
-                        <NavItem id="links" eventKey={2} href="#recife">
-                            Recife
-                        </NavItem>
                         <NavItem id="links" eventKey={2} href="#event">
                             Evento
                         </NavItem>
