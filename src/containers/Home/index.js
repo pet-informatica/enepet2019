@@ -38,7 +38,7 @@ class Home extends Component {
                         <div className="Body-content">
                             <About isMobile={this.state.isMobile}/>
                             {/* <Recife /> */}
-                            <Event />
+                            <Event isMobile={this.state.isMobile} />
                             <Commissions />
                             <Contact />
                             <p style={{"text-align": "center"}}>Desenvolvedor? <a href="https://github.com/pet-informatica/enepet2019">Reaproveite o código</a> deste website para o seu evento!</p>

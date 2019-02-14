@@ -20,7 +20,8 @@ class Event extends Component {
                         color="yellow"
                         size="50% 100%"
                         link="https://drive.google.com/file/d/14sGsq_mTI_De8xubnA5bStccFK4spcwu/view?usp=sharing"
-                        id="Event-cronograma"
+                        id="Event-1"
+                        isMobile={this.props.isMobile}
                         >
                     </Card>
                     <Card
@@ -29,7 +30,8 @@ class Event extends Component {
                         size="50% 100%"
                         color="red"
                         link="https://drive.google.com/drive/folders/1uH7Sp7KGfYNSGuZw9gP-Y8KEEin22QBy?usp=sharing"
-                        id="Event-edital"
+                        id="Event-2"
+                        isMobile={this.props.isMobile}
                     >
                     </Card>
                     <Card
@@ -38,7 +40,8 @@ class Event extends Component {
                         link="https://drive.google.com/drive/folders/1kFVoaYNaLbVIBsM2zwkhSyszXyZWfdpa?usp=sharing"
                         size="50% 100%"
                         color="blue"
-                        id="Event-oficinas"
+                        id="Event-3"
+                        isMobile={this.props.isMobile}
                         >
                     </Card>
                     <Card
@@ -47,7 +50,8 @@ class Event extends Component {
                         link="https://drive.google.com/drive/folders/1MH0OQN-K3sumv6vRFlJa7AMTWqDCP9z8?usp=sharing"
                         size="50% 100%"
                         color="blue"
-                        id="Event-banner"
+                        id="Event-4"
+                        isMobile={this.props.isMobile}
                         >
                     </Card>
                 </div>

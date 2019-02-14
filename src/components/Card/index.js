@@ -23,22 +23,23 @@ class Card extends Component {
     }
 
     render() {
+
+        const { isMobile } = this.props;
+        const className = (isMobile ? "Card-mobile" : "Card-desktop")
+
         return (
-            <div id={this.props.id} className="Card" onClick={this.handleClick}>
+            <div id={this.props.id} className={className} onClick={this.handleClick}>
                 <div
                     className="Card-image"
-                    style={{ 
+                    style={{
                         backgroundImage: `url(${this.props.img})`,
-                        backgroundSize: (this.props.size ? this.props.size : 'cover') 
+                        backgroundSize: (this.props.size ? this.props.size : 'cover')
                     }}
                 >
                 </div>
                 <div className="Card-title" style={{ color: "black" }}>
                     <h4> {this.props.title} </h4>
                 </div>
-                {/* <div className="Card-description">
-                    <p>{this.props.description}</p>
-                </div> */}
             </div>
         )
     }

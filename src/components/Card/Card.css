@@ -1,4 +1,4 @@
-.Card {
+.Card-mobile, .Card-desktop {
     height: 150px;
     width: 150px;
 
@@ -7,8 +7,14 @@
     justify-content: space-around;
     align-items: center;
 
-    border-left: thin solid black;
+}
 
+.Card-mobile {
+    border-bottom: thin solid grey;
+}
+
+.Card-desktop {
+    border-left: thin solid grey;
 }
 
 .Card:hover {
@@ -38,7 +44,6 @@
 }
 
 .Card-description {
-    /* height: 45%; */
     width: 100%;
 
     padding: 4px;
@@ -54,4 +59,12 @@
 
 .Card-title > *, .Card-description > * {
     margin: 0;
+}
+
+#Event-1 {
+    border-left: none;
+}
+
+#Event-4 {
+    border-bottom: none;
 }
