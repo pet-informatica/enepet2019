@@ -9,7 +9,8 @@ class Title extends Component {
 
         return (
             <div className="Title">
-                <h1 className="Title-heading">{this.props.title}</h1>
+                {/* We have to upper case the string because of the font choice */}
+                <h1 className="Title-heading">{this.props.title.toUpperCase()}</h1>
                 {sub}
             </div>
         );

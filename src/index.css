@@ -29,3 +29,21 @@ body {
     font-weight: bold;
     src: url("assets/fonts/Roboto/Roboto-Bold.ttf");
 }
+
+@font-face {
+    font-family: "Folk";
+    font-weight: bold;
+    src: url("assets/fonts/Folk\ Festival.ttf");
+}
+
+@font-face {
+    font-family: "Love";
+    font-weight: bold;
+    src: url("assets/fonts/being_love/Being\ Love\ Font\ by\ 7NTypes.otf");
+}
+
+@font-face {
+    font-family: "AntiFolk";
+    font-weight: bold;
+    src: url("assets/fonts/anti_folk/anti\ folk.ttf");
+}

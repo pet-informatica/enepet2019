@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Countdown from './Countdown';
 import About from './About';
-import Recife from './Recife';
 import Event from './Event';
 import Contact from './Contact';
 import Commissions from './Commissions';

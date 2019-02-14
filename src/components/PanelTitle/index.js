@@ -13,7 +13,7 @@ class PanelTitle extends Component {
     }
 
     render() {
-        const { img, title, eventKey, activeKey, color } = this.props;
+        const { img, title, eventKey, activeKey } = this.props;
         const arrow = (activeKey === eventKey ? up : down);
 
         return (

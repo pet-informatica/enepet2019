@@ -10,7 +10,7 @@ const data = new Date(2019, 3, 26, 16);
 const dataString = "26 de abril | 16:00"
 
 const addZero = (time => (time < 10 ? `${time}` : time));
-const checkPlural = ((name, time) => (time === 1 ? name : `${name}s`));
+const checkPlural = ((name, time) => (time === 1 ? name.toUpperCase() : `${name.toUpperCase()}S`));
 const link = "https://docs.google.com/forms/d/e/1FAIpQLSc8TXSf5hCuoLOQlXlP4eXMQi55hTbKby3-tsyTE5C5fHOfWA/viewform";
 
 class Countdown extends Component {
@@ -68,14 +68,14 @@ class Countdown extends Component {
 
         const tooltip = (
             <Tooltip id="tooltip">
-                <strong>Save the date!</strong> {dataString}.
+                <strong>XXVIII ENEPET 2019</strong> {dataString}.
             </Tooltip>
         )
 
         return (
             <div className="Countdown" style={{ backgroundImage: `url(${rosa})` }}>
                 <div className="Countdown-body">
-                    <h1 className="Countdown-title">Save the date!</h1>
+                    <h1 className="Countdown-title">XXXVII ENEPET 2019</h1>
                     <h3 className="Countdown-subtitle">{dataString}</h3>
                     <div className="Countdown-time">
                         <OverlayTrigger placement="top" overlay={tooltip}>
