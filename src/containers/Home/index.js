@@ -4,6 +4,7 @@ import Countdown from './Countdown';
 import About from './About';
 import Event from './Event';
 import Contact from './Contact';
+import Schedule from './Schedule';
 import Commissions from './Commissions';
 import Footer from './Footer';
 import './Home.css';
@@ -37,11 +38,11 @@ class Home extends Component {
                         <div id="Border-left" className="Border"></div>
                         <div className="Body-content">
                             <About isMobile={this.state.isMobile}/>
-                            {/* <Recife /> */}
+                            {/* <Schedule /> */}
                             <Event isMobile={this.state.isMobile} />
-                            <Commissions />
+                            <Commissions />                            
                             <Contact />
-                            <p style={{"text-align": "center"}}>Desenvolvedor? <a href="https://github.com/pet-informatica/enepet2019">Reaproveite o código</a> deste website para o seu evento!</p>
+                            <p style={{"textAlign": "center"}}>Desenvolvedor? <a href="https://github.com/pet-informatica/enepet2019">Reaproveite o código</a> deste website para o seu evento!</p>
                         </div>
                         <div id="Border-right" className="Border"></div>
                     </div>

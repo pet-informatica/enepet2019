@@ -52,7 +52,8 @@ class Commissions extends Component {
                             </Panel.Heading>
                             <Panel.Body collapsible>
                                 <PanelDescription
-                                    activities=""
+                                    activities="Reserva do espaço físico do evento e garantia da infraestrutura necessária para comportar todos os que utilizarão deste espaço; garante a infraestrutura das salas e áreas onde ocorrerão as atividades, levando em conta a instalação elétrica, presença de rede sem fio (Wi-Fi) disponibilidade de salas, mobília, recursos multimídias, controle de chaves, limpeza, segurança, deslocamento/translados; resolve questões que envolvam alojamento dos inscritos, o seu bem-estar, a presença
+                                    de banheiros (em perfeito funcionamento) e garante acessibilidade para os que necessitem."
                                     rep="Ramona Raissa | Conexões - Encontros Sociais"
                                     vice="Túlio Felipe | Geografia"
                                 />

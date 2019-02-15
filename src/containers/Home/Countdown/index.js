@@ -7,7 +7,7 @@ import './Countdown.css';
 /* 26 de abril de 2019, às 16h */
 /* Nota: a contagem de meses começa em 0, portanto, lembre-se de subtrair 1 */
 const data = new Date(2019, 3, 26, 16);
-const dataString = "26 de abril | 16:00"
+const dataString = "26 a 29 de abril"
 
 const addZero = (time => (time < 10 ? `${time}` : time));
 const checkPlural = ((name, time) => (time === 1 ? name.toUpperCase() : `${name.toUpperCase()}S`));
@@ -68,7 +68,7 @@ class Countdown extends Component {
 
         const tooltip = (
             <Tooltip id="tooltip">
-                <strong>XXVIII ENEPET 2019</strong> {dataString}.
+                <strong>Se prepare!</strong> De {dataString}.
             </Tooltip>
         )
 

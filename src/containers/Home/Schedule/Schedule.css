@@ -1,0 +1,16 @@
+/* #accordion-schedule {
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 0px !important;
+}
+
+#accordion-schedule > .panel {
+    width: 33%;
+}
+
+#accordion-schedule > .panel >.panel-heading {
+    height: 200px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */

@@ -7,7 +7,7 @@ class About extends Component {
 
     render() {
         const { isMobile } = this.props;
-        const theme = '"Compartilhar é Resister"'
+        const theme = '"Compartilhar é Resistir"'
         const subtheme = "Fortalecendo o programa através do compartilhamento de saberes"
 
         const size = isMobile ? "6vh" : "7vh";
