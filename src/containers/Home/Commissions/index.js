@@ -54,8 +54,7 @@ class Commissions extends Component {
                                 <PanelDescription
                                     activities="Reserva do espaço físico do evento e garantia da infraestrutura necessária para comportar todos os que utilizarão deste espaço; garante a infraestrutura das salas e áreas onde ocorrerão as atividades, levando em conta a instalação elétrica, presença de rede sem fio (Wi-Fi) disponibilidade de salas, mobília, recursos multimídias, controle de chaves, limpeza, segurança, deslocamento/translados; resolve questões que envolvam alojamento dos inscritos, o seu bem-estar, a presença
                                     de banheiros (em perfeito funcionamento) e garante acessibilidade para os que necessitem."
-                                    rep="Ramona Raissa | Conexões - Encontros Sociais"
-                                    vice="Túlio Felipe | Geografia"
+                                    rep="Wesley Xavier | Parasitologia"
                                 />
                             </Panel.Body>
                         </Panel>
@@ -76,8 +75,8 @@ class Commissions extends Component {
                                     activities="A Comissão de Comunicação e Marketing é responsável por toda a parte de interação direta com o público-alvo do evento. Logo, as questões da criação de uma identidade visual para o evento e da personalização de materiais entregues aos inscritos cabem a esta equipe.
                                     Além disso, a criação e manutenção dos canais virtuais do evento (seja site, página em rede social ou outro meio) assim como o constante contato com os inscritos e coleta de feedback são do escopo da comissão. 
                                     Como serão a ponte entre os inscritos e a organização, esse grupo desse saber triar uma determinada dúvida para a comissão responsável e responder a quem perguntar."
-                                    rep="Luana Melo | Geografia"
-                                    vice="Erivaldo | Infoinclusão"
+                                    rep="Henrique Caúla | Informática"
+                                    vice="Pedro Basílio | Infomática"
                                 />
                             </Panel.Body>
                         </Panel>
@@ -119,8 +118,8 @@ class Commissions extends Component {
                                 <PanelDescription 
                                 activities="A Comissão Científica é responsável pela gerência da maior parte das atividades do ENEPET 2019 e, portanto, é desejável que ela tenha um número maior de membros. Cabe a essa comissão a pauta dos GDT’s (com base nas atas dos InterPETs de 2018) e da Assembleia, a organização e treinamento das mesas dessas atividades e a geração da ata final do evento.
                                 Cabe também a essa comissão a seleção e organização de trabalhos a serem apresentados pelos inscritos, seja em pôster, apresentação oral ou oficina, além da emissão de certificados."
-                                rep="Maria Luiza | Informática"
-                                vice="Alexia Serpa | Geografia">
+                                rep=" Maria Nascimento | Geografia"
+                                vice="Yasmim Chagas | Ciências Sociais">
                                 </PanelDescription>
                             </Panel.Body>
                         </Panel>
@@ -139,8 +138,7 @@ class Commissions extends Component {
                             <Panel.Body collapsible>
                                 <PanelDescription 
                                 activities="A Comissão de Integração e Eventos trata das questões relacionadas ao bem estar dos inscritos e da integração dos mesmos. Nesse sentido, cabe a essa comissão a recepção dos inscritos no evento, bem como toda a organização referente aos eventos de integração, seja a cobrança ou não de ingresso à parte, o horário do evento (considerando as demais atividades do ENEPET), entre outras questões relacionadas."
-                                rep="Cynthia Patrícia | Conexões - GPP"
-                                vice="Tiago Morais | Mentor Aprendiz">
+                                rep="Tiago Morais | Mentor Aprendiz">
                                 </PanelDescription>
                             </Panel.Body>
                         </Panel>
@@ -159,8 +157,8 @@ class Commissions extends Component {
                             <Panel.Body collapsible>
                                 <PanelDescription 
                                 activities="A Comissão de Alimentação atua na gestão das refeições durante o evento para os seus participantes, tanto os membros da organização quanto os demais. Essa comissão deve se preocupar com a organização de refeições e coffee breaks, com toda a parte logística referente a aquisição e preservação dos alimentos, bem como deve se atentar para as questões nutricionais dos mesmos e para casos de restrições alimentares dos inscritos."
-                                rep="Lara Arruda | Conexões - Encontros Sociais"
-                                vice="Sayonara Maria | Química">
+                                rep="Jéssika Cavalcanti lima | Química"
+                                vice="Vinícius Firmino | Química">
                                 </PanelDescription>
                             </Panel.Body>
                         </Panel>
@@ -173,6 +171,7 @@ class Commissions extends Component {
                                         eventKey='7'
                                         activeKey={this.state.activeKey}
                                         color='red'
+                                        rep='Igor | Letras'
                                     />
                                 </Panel.Title>
                             </Panel.Heading>
