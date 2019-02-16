@@ -68,15 +68,15 @@ class Countdown extends Component {
 
         const tooltip = (
             <Tooltip id="tooltip">
-                <strong>Se prepare!</strong> De {dataString}.
+                <strong>Se prepare!</strong> De {dataString}
             </Tooltip>
         )
 
         return (
-            <div className="Countdown" style={{ backgroundImage: `url(${rosa})` }}>
+            <div id="countdown" className="Countdown" style={{ backgroundImage: `url(${rosa})` }}>
                 <div className="Countdown-body">
                     <h1 className="Countdown-title">XXXVII ENEPET 2019</h1>
-                    <h3 className="Countdown-subtitle">{dataString}</h3>
+                    <h3 className="Countdown-subtitle">De {dataString}</h3>
                     <div className="Countdown-time">
                         <OverlayTrigger placement="top" overlay={tooltip}>
                             <div className="Countdown-time-number" id="days">

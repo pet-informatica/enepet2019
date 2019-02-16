@@ -21,11 +21,11 @@ class CustomNavbar extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
+                        <NavItem id="links" eventKey={1} href="#countdown">
+                            Inscrição
+                        </NavItem>
                         <NavItem id="links" eventKey={1} href="#about">
                             Sobre
-                        </NavItem>
-                        <NavItem id="links" eventKey={2} href="#schedule">
-                            Cronograma
                         </NavItem>
                         <NavItem id="links" eventKey={2} href="#event">
                             Evento
