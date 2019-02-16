@@ -36,6 +36,7 @@ class Card extends Component {
         )
 
         const style = (this.props.avaiable ? {cursor: "pointer"} : {cursor: "not-allowed"})
+        const fontColor = (this.props.avaiable ? "black" : "grey");
 
         return (
             <OverlayTrigger placement="top" overlay={tooltip}>
@@ -48,7 +49,7 @@ class Card extends Component {
                         }}
                     >
                     </div>
-                    <div className="Card-title" style={{ color: "black" }}>
+                    <div className="Card-title" style={{ color: fontColor }}>
                         <h4> {this.props.title} </h4>
                     </div>
                 </div>

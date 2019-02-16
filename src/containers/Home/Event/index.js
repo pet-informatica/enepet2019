@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import Card from '../../../components/Card';
 import Title from '../../../components/Title';
 import pdf from '../../../assets/imgs/pdf.svg';
-import calendar from '../../../assets/imgs/calendar.svg';
+import calendar from '../../../assets/imgs/calendar.1.svg';
 import trabalho from '../../../assets/imgs/trabalho.svg';
-import banner from '../../../assets/imgs/poster.svg'
+import banner from '../../../assets/imgs/poster.svg';
+import termo from '../../../assets/imgs/termo.png';
+import bannerFile from '../../../assets/files/[Modelo] Banner - ENEPET 2019 Recife-PE.pptx';
+import trabalhoFile from '../../../assets/files/[Modelo] Submissão - ENEPET 2019 Recife-PE.docx';
+import termoCompromisso from '../../../assets/files/[Termo de Compromisso] Avaliador ENEPET 2019 Recife-PE.pdf';
+import editalFile from '../../../assets/files/[Edital] Submissão de Resumos - ENEPET 2019 Recife-PE.pdf';
 import './Event.css';
 
 class Event extends Component {
@@ -19,7 +24,7 @@ class Event extends Component {
                         img={calendar}
                         color="yellow"
                         size="50% 100%"
-                        link="https://drive.google.com/file/d/14sGsq_mTI_De8xubnA5bStccFK4spcwu/view?usp=sharing"
+                        link=""
                         id="Event-1"
                         isMobile={this.props.isMobile}
                         avaiable={false}
@@ -27,35 +32,46 @@ class Event extends Component {
                     </Card>
                     <Card
                         title="Edital"
-                        img={trabalho}
+                        img={pdf}
                         size="50% 100%"
                         color="red"
-                        link="https://drive.google.com/drive/folders/1uH7Sp7KGfYNSGuZw9gP-Y8KEEin22QBy?usp=sharing"
+                        link={editalFile}
                         id="Event-2"
                         isMobile={this.props.isMobile}
-                        avaiable={false}
+                        avaiable={true}
                     >
                     </Card>
                     <Card
-                        title="Oficinas"
-                        img={pdf}
-                        link="https://drive.google.com/drive/folders/1kFVoaYNaLbVIBsM2zwkhSyszXyZWfdpa?usp=sharing"
+                        title="Modelo"
+                        img={trabalho}
+                        link={trabalhoFile}
                         size="50% 100%"
                         color="blue"
                         id="Event-3"
                         isMobile={this.props.isMobile}
-                        avaiable={false}
+                        avaiable={true}
                         >
                     </Card>
                     <Card
                         title="Banner"
                         img={banner}
-                        link="https://drive.google.com/drive/folders/1MH0OQN-K3sumv6vRFlJa7AMTWqDCP9z8?usp=sharing"
+                        link={bannerFile}
                         size="50% 100%"
                         color="blue"
                         id="Event-4"
                         isMobile={this.props.isMobile}
-                        avaiable={false}
+                        avaiable={true}
+                        >
+                    </Card>
+                    <Card
+                        title="Termo de Compromisso"
+                        img={termo}
+                        link={termoCompromisso}
+                        size="50% 100%"
+                        color="blue"
+                        id="Event-4"
+                        isMobile={this.props.isMobile}
+                        avaiable={true}
                         >
                     </Card>
                 </div>
