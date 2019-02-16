@@ -10,9 +10,14 @@
 #brand {
     display: flex;
     flex-direction: row;
-    font-family: Peleja;
     color: white;
     align-items: center;
+}
+
+.brandName {
+    font-family: Folk;
+    margin-left: 4px;
+    margin-top: 3px;
 }
 
 .iconDiv {

@@ -14,7 +14,7 @@ class CustomNavbar extends Component {
                             <div className="iconDiv">
                                 <img alt="icon" src={iconWhite}></img>
                             </div>
-                            <div>ENEPET 2019</div>
+                            <div className ="brandName">ENEPET 2019</div>
                         </a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
