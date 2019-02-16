@@ -18,7 +18,6 @@
 }
 
 .Card-desktop:hover {
-    /* cursor: not-allowed; */
     border: 1px solid grey !important; 
 }
 
