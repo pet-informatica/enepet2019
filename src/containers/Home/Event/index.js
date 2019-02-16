@@ -22,6 +22,7 @@ class Event extends Component {
                         link="https://drive.google.com/file/d/14sGsq_mTI_De8xubnA5bStccFK4spcwu/view?usp=sharing"
                         id="Event-1"
                         isMobile={this.props.isMobile}
+                        avaiable={false}
                         >
                     </Card>
                     <Card
@@ -32,6 +33,7 @@ class Event extends Component {
                         link="https://drive.google.com/drive/folders/1uH7Sp7KGfYNSGuZw9gP-Y8KEEin22QBy?usp=sharing"
                         id="Event-2"
                         isMobile={this.props.isMobile}
+                        avaiable={false}
                     >
                     </Card>
                     <Card
@@ -42,6 +44,7 @@ class Event extends Component {
                         color="blue"
                         id="Event-3"
                         isMobile={this.props.isMobile}
+                        avaiable={false}
                         >
                     </Card>
                     <Card
@@ -52,6 +55,7 @@ class Event extends Component {
                         color="blue"
                         id="Event-4"
                         isMobile={this.props.isMobile}
+                        avaiable={false}
                         >
                     </Card>
                 </div>

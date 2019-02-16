@@ -18,7 +18,7 @@ class Card extends Component {
 
     handleClick() {
         const { link } = this.props;
-        if (link) {
+        if (link && this.props.avaiable) {
             window.open(link);
         }
     }
@@ -27,16 +27,19 @@ class Card extends Component {
 
         const { isMobile } = this.props;
         const className = (isMobile ? "Card-mobile" : "Card-desktop")
+        const tooltipMessage = (this.props.avaiable ? "Clique para baixar" : "Em breve!")
 
         const tooltip = (
             <Tooltip id="tooltip">
-                Clique para baixar
+                {tooltipMessage}
             </Tooltip>
         )
 
+        const style = (this.props.avaiable ? {cursor: "pointer"} : {cursor: "not-allowed"})
+
         return (
             <OverlayTrigger placement="top" overlay={tooltip}>
-                <div id={this.props.id} className={className} onClick={this.handleClick}>
+                <div style={style} id={this.props.id} className={className} onClick={this.handleClick}>
                     <div
                         className="Card-image"
                         style={{
