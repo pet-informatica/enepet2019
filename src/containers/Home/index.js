@@ -42,7 +42,10 @@ class Home extends Component {
                             <Event isMobile={this.state.isMobile} />
                             <Commissions />                            
                             <Contact />
-                            <p style={{"textAlign": "center"}}>Desenvolvedor? <a href="https://github.com/pet-informatica/enepet2019">Reaproveite o código</a> deste website para o seu evento!</p>
+                            <p style={{"textAlign": "center"}}>
+                                <i>enepet2019@gmail.com</i><br/>
+                                Desenvolvedor? <a href="https://github.com/pet-informatica/enepet2019">Reaproveite o código</a> deste website para o seu evento!
+                            </p>
                         </div>
                         <div id="Border-right" className="Border"></div>
                     </div>
