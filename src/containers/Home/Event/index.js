@@ -69,7 +69,7 @@ class Event extends Component {
                         link={termoCompromisso}
                         size="50% 100%"
                         color="blue"
-                        id="Event-4"
+                        id="Event-5"
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
