@@ -13,8 +13,8 @@ class Contact extends Component {
             <div className="Contact" id="contact">
                 <Title title="Contato" />
                 <div className="Contact-body">
-                    <ContactOption link="https://www.facebook.com/petpe2018" img={facebook} title="Facebook"/>
-                    <ContactOption link="https://instagram.com/petpe2018" img={instagram} title="Instagram"/>
+                    <ContactOption link="https://www.facebook.com/enepet2019" img={facebook} title="Facebook"/>
+                    <ContactOption link="https://instagram.com/enepet2019" img={instagram} title="Instagram"/>
                     <ContactOption link="mailto:enepet2019@gmail.com" img={mail} title="Email"/>
                 </div>
             </div>
