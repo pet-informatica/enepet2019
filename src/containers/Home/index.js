@@ -4,7 +4,7 @@ import Countdown from './Countdown';
 import About from './About';
 import Event from './Event';
 import Contact from './Contact';
-import Schedule from './Schedule';
+// import Schedule from './Schedule';
 import Commissions from './Commissions';
 import Footer from './Footer';
 import './Home.css';
