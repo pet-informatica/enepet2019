@@ -42,7 +42,7 @@ class Event extends Component {
                     >
                     </Card>
                     <Card
-                        title="Modelo"
+                        title="Modelo de submissão"
                         img={trabalho}
                         link={trabalhoFile}
                         size="50% 100%"
