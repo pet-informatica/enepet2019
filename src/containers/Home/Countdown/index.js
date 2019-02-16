@@ -75,7 +75,7 @@ class Countdown extends Component {
         return (
             <div id="countdown" className="Countdown" style={{ backgroundImage: `url(${rosa})` }}>
                 <div className="Countdown-body">
-                    <h1 className="Countdown-title">XXXVII ENEPET 2019</h1>
+                    <h1 className="Countdown-title">XVIII ENEPET 2019</h1>
                     <h3 className="Countdown-subtitle">De {dataString}</h3>
                     <div className="Countdown-time">
                         <OverlayTrigger placement="top" overlay={tooltip}>
