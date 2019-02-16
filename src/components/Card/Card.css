@@ -66,6 +66,10 @@
     border-left: none;
 }
 
+#Event-1:hover {
+    border: none !important;
+}
+
 #Event-5 {
     border-bottom: none;
 }
