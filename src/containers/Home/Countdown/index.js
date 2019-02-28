@@ -11,7 +11,7 @@ const dataString = "26 a 29 de abril"
 
 const addZero = (time => (time < 10 ? `${time}` : time));
 const checkPlural = ((name, time) => (time === 1 ? name.toUpperCase() : `${name.toUpperCase()}S`));
-const link = "https://docs.google.com/forms/d/e/1FAIpQLSc8TXSf5hCuoLOQlXlP4eXMQi55hTbKby3-tsyTE5C5fHOfWA/viewform";
+const link = "https://www.even3.com.br/enepet2019/";
 
 class Countdown extends Component {
 
@@ -104,7 +104,7 @@ class Countdown extends Component {
                         </OverlayTrigger>
                     </div>
                     <div className="Countdown-signup" style={{ backgroundColor: "white" }}>
-                        <Button name={"Realize sua pré-inscrição!"} link={link}/>
+                        <Button name={"Inscreva-se já!"} link={link}/>
                     </div>
                 </div>
             </div>
