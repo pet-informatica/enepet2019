@@ -6,10 +6,13 @@ import calendar from '../../../assets/imgs/calendar.1.svg';
 import trabalho from '../../../assets/imgs/trabalho.svg';
 import banner from '../../../assets/imgs/poster.svg';
 import termo from '../../../assets/imgs/termo.png';
+import gear from '../../../assets/imgs/gear.png';
 import bannerFile from '../../../assets/files/[Modelo] Banner - ENEPET 2019 Recife-PE.pptx';
 import trabalhoFile from '../../../assets/files/[Modelo] Submissão - ENEPET 2019 Recife-PE.docx';
 import termoCompromisso from '../../../assets/files/[Termo de Compromisso] Avaliador ENEPET 2019 Recife-PE.pdf';
 import editalFile from '../../../assets/files/[Edital] Submissão de Resumos - ENEPET 2019 Recife-PE.pdf';
+import oficinaModel from '../../../assets/files/(ENEPET) MODELO DE SUBMISSÃO DE OFICINAS E MINICURSOS AO XVIII ENCONTRO NORDESTINO DOS GRUPOS PET – PERNAMBUCO (XVIII ENEPET) (1).docx';
+import oficinaEdital from '../../../assets/files/(ENEPET) EDITAL PARA SUBMISSÃO DE OFICINAS E MINICURSOS AO XVIII ENCONTRO NORDESTINO DOS GRUPOS PET – PERNAMBUCO (XVIII ENEPET).pdf';
 import './Event.css';
 
 class Event extends Component {
@@ -56,6 +59,28 @@ class Event extends Component {
                         title="Banner"
                         img={banner}
                         link={bannerFile}
+                        size="50% 100%"
+                        color="blue"
+                        id="Event-4"
+                        isMobile={this.props.isMobile}
+                        avaiable={true}
+                        >
+                    </Card>
+                    <Card
+                        title="Oficinas - Edital"
+                        img={gear}
+                        link={oficinaEdital}
+                        size="50% 100%"
+                        color="blue"
+                        id="Event-4"
+                        isMobile={this.props.isMobile}
+                        avaiable={true}
+                        >
+                    </Card>
+                    <Card
+                        title="Oficinas - Modelo"
+                        img={trabalho}
+                        link={oficinaModel}
                         size="50% 100%"
                         color="blue"
                         id="Event-4"
