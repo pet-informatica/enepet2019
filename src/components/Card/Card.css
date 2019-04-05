@@ -62,14 +62,14 @@
     margin: 0;
 }
 
-#Event-1 {
+#Event-first, #Event-5 {
     border-left: none;
 }
 
-#Event-1:hover {
+#Event-first:hover {
     border: none !important;
 }
 
-#Event-5 {
+#Event-last {
     border-bottom: none;
 }

@@ -7,12 +7,16 @@ import trabalho from '../../../assets/imgs/trabalho.svg';
 import banner from '../../../assets/imgs/poster.svg';
 import termo from '../../../assets/imgs/termo.png';
 import gear from '../../../assets/imgs/gear.png';
+import people from '../../../assets/imgs/people.png';
+
+import gdtsFile from '../../../assets/files/GDTs atualizados 2019.pdf';
 import bannerFile from '../../../assets/files/[Modelo] Banner - ENEPET 2019 Recife-PE.pptx';
 import trabalhoFile from '../../../assets/files/[Modelo] Submissão - ENEPET 2019 Recife-PE.docx';
 import termoCompromisso from '../../../assets/files/[Termo de Compromisso] Avaliador ENEPET 2019 Recife-PE.pdf';
 import editalFile from '../../../assets/files/[Edital] Submissão de Resumos - ENEPET 2019 Recife-PE.pdf';
 import oficinaModel from '../../../assets/files/(ENEPET) MODELO DE SUBMISSÃO DE OFICINAS E MINICURSOS AO XVIII ENCONTRO NORDESTINO DOS GRUPOS PET – PERNAMBUCO (XVIII ENEPET) (1).docx';
 import oficinaEdital from '../../../assets/files/(ENEPET) EDITAL PARA SUBMISSÃO DE OFICINAS E MINICURSOS AO XVIII ENCONTRO NORDESTINO DOS GRUPOS PET – PERNAMBUCO (XVIII ENEPET).pdf';
+
 import './Event.css';
 
 class Event extends Component {
@@ -28,7 +32,7 @@ class Event extends Component {
                         color="yellow"
                         size="50% 100%"
                         link=""
-                        id="Event-1"
+                        id="Event-first"
                         isMobile={this.props.isMobile}
                         avaiable={false}
                         >
@@ -67,12 +71,23 @@ class Event extends Component {
                         >
                     </Card>
                     <Card
+                        title="GDT's"
+                        img={people}
+                        link={gdtsFile}
+                        size="50% 100%"
+                        color="blue"
+                        id="Event-5"
+                        isMobile={this.props.isMobile}
+                        avaiable={true}
+                        >
+                    </Card>
+                    <Card
                         title="Oficinas - Edital"
                         img={gear}
                         link={oficinaEdital}
                         size="50% 100%"
                         color="blue"
-                        id="Event-4"
+                        id="Event-6"
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
@@ -83,7 +98,7 @@ class Event extends Component {
                         link={oficinaModel}
                         size="50% 100%"
                         color="blue"
-                        id="Event-4"
+                        id="Event-7"
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
@@ -94,7 +109,7 @@ class Event extends Component {
                         link={termoCompromisso}
                         size="50% 100%"
                         color="blue"
-                        id="Event-5"
+                        id="Event-last"
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
