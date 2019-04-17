@@ -9,7 +9,7 @@ class Button extends Component {
     }
 
     handleClick = () => {
-        window.open(this.props.link);
+        if (this.props.link) window.open(this.props.link);
     }
 
     render() {

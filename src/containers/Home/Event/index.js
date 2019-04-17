@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import Card from '../../../components/Card';
 import Title from '../../../components/Title';
 import pdf from '../../../assets/imgs/pdf.svg';
-import calendar from '../../../assets/imgs/calendar.1.svg';
+// import calendar from '../../../assets/imgs/calendar.1.svg';
 import trabalho from '../../../assets/imgs/trabalho.svg';
 import banner from '../../../assets/imgs/poster.svg';
 import termo from '../../../assets/imgs/termo.png';
 import gear from '../../../assets/imgs/gear.png';
 import people from '../../../assets/imgs/people.png';
+import spotifyLogo from '../../../assets/imgs/spotify.png';
 
 import gdtsFile from '../../../assets/files/GDTs atualizados 2019.pdf';
 import bannerFile from '../../../assets/files/[Modelo] Banner - ENEPET 2019 Recife-PE.pptx';
@@ -19,6 +20,8 @@ import oficinaEdital from '../../../assets/files/(ENEPET) EDITAL PARA SUBMISSÃO
 
 import './Event.css';
 
+const spotifyLink = 'https://open.spotify.com/user/thelittlenavyboy/playlist/4ePFVPrGb8jA8pa1gAh04i?si=7V8tkw75RQ69zq-l-QQO3g';
+
 class Event extends Component {
 
     render() {
@@ -26,7 +29,7 @@ class Event extends Component {
             <div className="Event" id="event">
                 <Title title="Evento" />
                 <div className="Event-body">
-                    <Card
+                    {/* <Card
                         title="Cronograma"
                         img={calendar}
                         color="yellow"
@@ -35,6 +38,17 @@ class Event extends Component {
                         id="Event-first"
                         isMobile={this.props.isMobile}
                         avaiable={false}
+                        >
+                    </Card> */}
+                    <Card
+                        title="Playlist da festa"
+                        img={spotifyLogo}
+                        link={spotifyLink}
+                        size="50% 100%"
+                        color="blue"
+                        id="Event-first"
+                        isMobile={this.props.isMobile}
+                        avaiable={true}
                         >
                     </Card>
                     <Card
