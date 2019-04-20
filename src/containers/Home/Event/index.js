@@ -15,8 +15,7 @@ import bannerFile from '../../../assets/files/[Modelo] Banner - ENEPET 2019 Reci
 import trabalhoFile from '../../../assets/files/[Modelo] Submissão - ENEPET 2019 Recife-PE.docx';
 import termoCompromisso from '../../../assets/files/[Termo de Compromisso] Avaliador ENEPET 2019 Recife-PE.pdf';
 import editalFile from '../../../assets/files/[Edital] Submissão de Resumos - ENEPET 2019 Recife-PE.pdf';
-import oficinaModel from '../../../assets/files/(ENEPET) MODELO DE SUBMISSÃO DE OFICINAS E MINICURSOS AO XVIII ENCONTRO NORDESTINO DOS GRUPOS PET – PERNAMBUCO (XVIII ENEPET) (1).docx';
-import oficinaEdital from '../../../assets/files/(ENEPET) EDITAL PARA SUBMISSÃO DE OFICINAS E MINICURSOS AO XVIII ENCONTRO NORDESTINO DOS GRUPOS PET – PERNAMBUCO (XVIII ENEPET).pdf';
+import oficinaEdital from '../../../assets/files/Oficinas e Minicursos.pdf';
 
 import './Event.css';
 
@@ -96,23 +95,12 @@ class Event extends Component {
                         >
                     </Card>
                     <Card
-                        title="Oficinas - Edital"
+                        title="Oficinas e Minicursos"
                         img={gear}
                         link={oficinaEdital}
                         size="50% 100%"
                         color="blue"
                         id="Event-6"
-                        isMobile={this.props.isMobile}
-                        avaiable={true}
-                        >
-                    </Card>
-                    <Card
-                        title="Oficinas - Modelo"
-                        img={trabalho}
-                        link={oficinaModel}
-                        size="50% 100%"
-                        color="blue"
-                        id="Event-7"
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
