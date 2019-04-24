@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 import Button from '../../../components/Button';
 import rosa from '../../../assets/imgs/snazzy-image.png'
+import nota from '../../../assets/files/NOTA SOBRE ALOJAMENTOS.pdf';
 import './Countdown.css';
+ 
 
 /* 26 de abril de 2019, às 16h */
 /* Nota: a contagem de meses começa em 0, portanto, lembre-se de subtrair 1 */
@@ -104,7 +106,7 @@ class Countdown extends Component {
                         </OverlayTrigger>
                     </div>
                     <div className="Countdown-signup" style={{ backgroundColor: "white" }}>
-                        <Button name={"Inscrições encerradas!"}/>
+                        <Button name={"Nota sobre alojamentos!"} link={nota}/>
                     </div>
                 </div>
             </div>
