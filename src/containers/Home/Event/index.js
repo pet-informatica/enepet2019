@@ -4,18 +4,19 @@ import Title from '../../../components/Title';
 import pdf from '../../../assets/imgs/pdf.svg';
 // import calendar from '../../../assets/imgs/calendar.1.svg';
 import trabalho from '../../../assets/imgs/trabalho.svg';
-import banner from '../../../assets/imgs/poster.svg';
+// import banner from '../../../assets/imgs/poster.svg';
 import termo from '../../../assets/imgs/termo.png';
 import gear from '../../../assets/imgs/gear.png';
 import people from '../../../assets/imgs/people.png';
 import spotifyLogo from '../../../assets/imgs/spotify.png';
 
 import gdtsFile from '../../../assets/files/GDTs atualizados 2019.pdf';
-import bannerFile from '../../../assets/files/[Modelo] Banner - ENEPET 2019 Recife-PE.pptx';
-import trabalhoFile from '../../../assets/files/[Modelo] Submissão - ENEPET 2019 Recife-PE.docx';
+// import bannerFile from '../../../assets/files/[Modelo] Banner - ENEPET 2019 Recife-PE.pptx';
+// import trabalhoFile from '../../../assets/files/[Modelo] Submissão - ENEPET 2019 Recife-PE.docx';
 import termoCompromisso from '../../../assets/files/[Termo de Compromisso] Avaliador ENEPET 2019 Recife-PE.pdf';
 import editalFile from '../../../assets/files/[Edital] Submissão de Resumos - ENEPET 2019 Recife-PE.pdf';
 import oficinaEdital from '../../../assets/files/Oficinas e Minicursos.pdf';
+import lista from '../../../assets/files/lista.pdf';
 
 import './Event.css';
 
@@ -62,9 +63,9 @@ class Event extends Component {
                     >
                     </Card>
                     <Card
-                        title="Modelo de submissão"
+                        title="Lista de trabalhos"
                         img={trabalho}
-                        link={trabalhoFile}
+                        link={lista}
                         size="50% 100%"
                         color="blue"
                         id="Event-3"
@@ -72,7 +73,7 @@ class Event extends Component {
                         avaiable={true}
                         >
                     </Card>
-                    <Card
+                    {/* <Card
                         title="Banner"
                         img={banner}
                         link={bannerFile}
@@ -82,14 +83,14 @@ class Event extends Component {
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
-                    </Card>
+                    </Card> */}
                     <Card
                         title="GDT's"
                         img={people}
                         link={gdtsFile}
                         size="50% 100%"
                         color="blue"
-                        id="Event-5"
+                        id="Event-4"
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
@@ -100,7 +101,7 @@ class Event extends Component {
                         link={oficinaEdital}
                         size="50% 100%"
                         color="blue"
-                        id="Event-6"
+                        id="Event-5"
                         isMobile={this.props.isMobile}
                         avaiable={true}
                         >
